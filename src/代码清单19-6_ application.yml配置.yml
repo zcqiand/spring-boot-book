@@ -1,0 +1,51 @@
+spring:
+  application:
+    name: jpa-demo
+
+  # H2数据库配置
+  datasource:
+    url: jdbc:h2:mem:testdb        # 内存数据库，名称为testdb
+    driver-class-name: org.h2.Driver
+    username: sa                    # H2默认用户名
+    password:                       # H2默认密码为空
+
+  # H2控制台（可选，访问 http://localhost:8080/h2-console）
+  h2:
+    console:
+      enabled: true                  # 开启H2控制台
+      path: /h2-console             # 控制台访问路径
+
+  # JPA配置
+  jpa:
+    # 显示SQL语句（调试用，生产环境建议关闭）
+    show-sql: true
+    # 格式化SQL输出
+    properties:
+      hibernate:
+        format_sql: true
+        # 开启SQL参数日志（会打印实际参数值）
+        use_sql_comments: true
+    # 数据库初始化策略
+    # - none：不执行初始化脚本
+    # - create：每次启动创建表（会清空数据）
+    # - create-drop：启动时创建，结束时删除
+    # - update：更新表结构（不删除数据）
+    # - validate：验证表结构，不修改
+    hibernate:
+      ddl-auto: create-drop
+    # 数据库平台
+    database-platform: org.hibernate.dialect.H2Dialect
+
+# 服务端口
+server:
+  port: 8080
+
+# 日志配置
+logging:
+  level:
+    # 显示SQL语句
+    org.hibernate.SQL: DEBUG
+    # 显示SQL参数
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    # 显示JPQL查询
+    org.hibernate.hql.internal.ast: INFO

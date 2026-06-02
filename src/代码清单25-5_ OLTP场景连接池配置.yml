@@ -1,0 +1,17 @@
+# 高并发在线交易场景
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 50
+      minimum-idle: 50
+      connection-timeout: 30000
+      idle-timeout: 300000
+      max-lifetime: 1800000
+      pool-name: HikariPool-OLTP
+      auto-commit: true
+      # MySQL特定优化
+      dataSource:
+        cachePrepStmts: true
+        prepStmtCacheSize: 250
+        prepStmtCacheSqlLimit: 2048
+        useServerPrepStmts: true

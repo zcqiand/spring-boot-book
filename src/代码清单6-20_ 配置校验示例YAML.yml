@@ -1,0 +1,10 @@
+app:
+  config:
+    # 应用名称 - 必须提供，否则启动失败
+    app-name: xr-tech-demo
+    # 服务器端口 - 必须在1024-65535之间
+    server-port: 8080
+    # 最大连接数 - 默认100，可在范围内调整
+    max-connections: 100
+    # 是否启用 - 默认为true
+    enabled: true

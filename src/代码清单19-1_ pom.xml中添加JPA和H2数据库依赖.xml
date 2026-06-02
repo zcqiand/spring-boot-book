@@ -1,0 +1,21 @@
+<!-- Spring Data JPA起步依赖 -->
+<!-- 包含：Hibernate（JPA实现）、Spring Data Commons、Spring ORM -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jpa</artifactId>
+</dependency>
+
+<!-- H2内存数据库（开发/测试用） -->
+<!-- scope=runtime：编译时不需要，仅运行时需要 -->
+<dependency>
+    <groupId>com.h2database</groupId>
+    <artifactId>h2</artifactId>
+    <scope>runtime</scope>
+</dependency>
+
+<!-- 可选：Lombok（减少样板代码） -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <optional>true</optional>
+</dependency>

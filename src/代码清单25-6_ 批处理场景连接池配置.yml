@@ -1,0 +1,12 @@
+# 后台批处理场景 - 减少连接数，避免长时间占用
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      connection-timeout: 60000
+      idle-timeout: 300000
+      max-lifetime: 3600000
+      pool-name: HikariPool-Batch
+      auto-commit: false
+      connection-test-query: SELECT 1

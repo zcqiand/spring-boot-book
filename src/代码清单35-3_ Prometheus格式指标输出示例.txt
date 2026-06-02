@@ -1,0 +1,4 @@
+# HELP http_server_requests_seconds HTTP请求持续时间
+http_server_requests_seconds_count{method="GET",uri="/api/orders",status="200"} 1523.0
+# HELP jvm_memory_used_bytes JVM内存使用量
+jvm_memory_used_bytes{area="heap",id="G1 Old Gen"} 2.345E8

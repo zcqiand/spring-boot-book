@@ -1,0 +1,5 @@
+-- 正确：使用IF NOT EXISTS
+CREATE TABLE IF NOT EXISTS user (
+    id INT PRIMARY KEY,
+    username VARCHAR(100)
+);

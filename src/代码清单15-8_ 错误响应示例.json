@@ -1,0 +1,6 @@
+{
+    "success": false,
+    "code": 404,
+    "message": "用户 资源不存在（ID: 0）",
+    "path": "/api/users/0"
+}

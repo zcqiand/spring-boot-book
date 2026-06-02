@@ -1,0 +1,14 @@
+<dependencies>
+    <!-- Spring Boot Starter Web 已包含 spring-boot-starter-validation -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <!-- 如需 Hibernate Validator（推荐）-->
+    <dependency>
+        <groupId>org.hibernate.validator</groupId>
+        <artifactId>hibernate-validator</artifactId>
+        <version>8.0.1.Final</version>
+    </dependency>
+</dependencies>

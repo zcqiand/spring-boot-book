@@ -1,0 +1,29 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    profiles:
+      - prod
+    command: ["--spring.profiles.active=prod"]
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    ports:
+      - "8080:8080"
+
+  app-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    profiles:
+      - dev
+    command: ["--spring.profiles.active=dev"]
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./src:/app/src:ro
+    depends_on:
+      - db
+      - redis

@@ -1,0 +1,4 @@
+exercise_order_created_total{service="order-service"} 0.0
+exercise_order_failed_total{service="order-service"} 0.0
+exercise_cache_hit_rate{service="cache"} 0.0
+exercise_api_order_create_seconds_count 0.0

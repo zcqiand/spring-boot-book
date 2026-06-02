@@ -1,0 +1,1 @@
+spring init --name=demo --dependencies=web,data-jpa demo

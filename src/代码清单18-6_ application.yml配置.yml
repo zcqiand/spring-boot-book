@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: websocket-demo
+
+  # WebSocket相关配置
+  websocket:
+    # STOMP心跳配置（单位：秒）
+    heartbeat:
+      # 服务端心跳间隔（默认25秒）
+      server: 25000
+      # 客户端心跳间隔（默认10秒）
+      client: 10000
+      # 心跳线程池大小
+      pool-size: 10
+
+  # SockJS配置
+  sockjs:
+    # 是否启用SockJS（默认true）
+    enabled: true
+    # SockJS的URL前缀
+    url-prefix: /ws
+    # 消息缓存队列大小
+    message-cache-size: 100
+    # HTTP流请求的超时时间（毫秒）
+    stream-bytes-limit: 524288
+
+# 服务器端口配置
+server:
+  port: 8080
+
+# 日志配置（调试时可开启DEBUG级别）
+logging:
+  level:
+    # WebSocket消息日志
+    org.springframework.web.socket: INFO
+    # STOMP协议日志
+    org.springframework.messaging: INFO

@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: lab-system-service
+  namespace: production
+  labels:
+    app: lab-system
+spec:
+  type: ClusterIP  # 内网访问
+  selector:
+    app: lab-system
+  ports:
+    - port: 80
+      targetPort: 8080
+  # 会话亲和性，保持同一次请求到同一Pod
+  sessionAffinity: ClientIP

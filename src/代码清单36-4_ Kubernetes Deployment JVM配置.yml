@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: xr-tech-api
+  labels:
+    app: xr-tech-api
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: xr-tech-api
+  template:
+    metadata:
+      labels:
+        app: xr-tech-api
+    spec:
+      containers:
+      - name: xr-tech-api
+        image: xr-tech-api:1.0.0
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "2000m"
+        env:
+        - name: JAVA_OPTS
+          value: "-Xms512m -Xmx1024m -Xmn256m -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -XX:+UseCompressedOops -XX:+UnlockCommercialFeatures -XX:+FlightRecorder"
+        - name: HEAP_DUMP_PATH
+          value: "/var/log"
+        volumeMounts:
+        - name: jfr-data
+          mountPath: /var/log
+        livenessProbe:
+          httpGet:
+            path: /actuator/health
+            port: 8080
+          initialDelaySeconds: 60
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /actuator/health
+            port: 8080
+          initialDelaySeconds: 30
+          periodSeconds: 5
+      volumes:
+      - name: jfr-data
+        emptyDir: {}

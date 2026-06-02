@@ -1,0 +1,37 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: lab-service
+          uri: http://lab-service:8081
+          predicates:
+            - Path=/api/lab/**
+          filters:
+            - StripPath=1
+            - name: RequestRateLimiter
+              args:
+                redis-rate-limiter.replenishRate: 100
+                redis-rate-limiter.burstCapacity: 200
+
+        - id: task-service
+          uri: http://task-service:8082
+          predicates:
+            - Path=/api/task/**
+          filters:
+            - StripPath=1
+
+        - id: report-service
+          uri: http://report-service:8083
+          predicates:
+            - Path=/api/report/**
+          filters:
+            - StripPath=1
+
+      default-filters:
+        - name: GlobalAuthFilter
+        - name: RequestLoggingFilter

@@ -1,0 +1,1 @@
+curl -H "Authorization: Bearer <access_token>" http://localhost:8080/api/user/me

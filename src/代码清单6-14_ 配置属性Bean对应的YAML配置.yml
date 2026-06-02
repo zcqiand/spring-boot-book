@@ -1,0 +1,8 @@
+app:
+  database:
+    pool:
+      minimum-size: 5
+      maximum-size: 20
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000

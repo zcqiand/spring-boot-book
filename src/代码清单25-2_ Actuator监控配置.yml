@@ -1,0 +1,11 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics,prometheus
+  metrics:
+    tags:
+      pool: HikariPool-Bookstore
+
+---
+# Java配置类：自定义HikariCP监控服务

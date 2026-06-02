@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: xr-tech-api
+  jvm:
+    # 堆内存配置（Spring Boot 3.x支持）
+    heap:
+      initial-size: 512m
+      max-size: 1024m
+    # 年轻代配置
+    young:
+      size: 256m
+    # G1 GC配置
+    gc:
+      type: G1
+      target-pause: 200ms
+    # JFR配置
+    flight-recorder:
+      enabled: true
+      duration: 5m
+      settings: profile
+
+server:
+  port: 8080
+  tomcat:
+    threads:
+      max: 200
+      min-spare: 10
+    connection-timeout: 20000
+    max-connections: 10000

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket实时聊天</title>
+    <!-- 引入SockJS客户端库（自动处理WebSocket降级） -->
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1.6.1/dist/sockjs.min.js"></script>
+    <!-- 引入STOMP协议客户端库 -->
+    <script src="https://cdn.jsdelivr.net/npm/@stomp/stompjs@7.0.0/bundles/stomp.umd.min.js"></script>
+    <style>
+        /* 基础样式 */
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .container { display: flex; gap: 20px; }
+        .panel { flex: 1; border: 1px solid #ddd; padding: 15px; border-radius: 8px; }
+        .message-list { height: 300px; overflow-y: auto; border: 1px solid #eee; padding: 10px; margin: 10px 0; }
+        .message { padding: 8px; margin: 5px 0; border-radius: 4px; }
+        .message.sent { background: #e3f2fd; text-align: right; }
+        .message.received { background: #f5f5f5; }
+        .message.system { background: #fff3e0; font-style: italic; }
+        input, button, select { padding: 10px; margin: 5px 0; }
+        button { cursor: pointer; background: #1976d2; color: white; border: none; border-radius: 4px; }
+        button:hover { background: #1565c0; }
+        .status { color: #666; font-size: 12px; }
+        .connected { color: green; }
+        .disconnected { color: red; }
+    </style>
+</head>
+<body>
+    <h1>WebSocket实时通信演示</h1>
+
+    <!-- 连接状态 -->
+    <div class="status" id="status">状态：未连接</div>
+
+    <!-- 登录区域 -->
+    <div id="loginPanel" class="panel">
+        <h3>登录</h3>
+        <input type="text" id="username" placeholder="用户名" value="user1">
+        <button onclick="connect()">连接服务器</button>
+    </div>
+
+    <!-- 聊天区域（连接后显示） -->
+    <div id="chatPanel" class="panel" style="display:none;">
+        <h3>聊天室</h3>
+
+        <!-- 广播消息区域 -->
+        <h4>系统公告</h4>
+        <div class="message-list" id="broadcastMessages"></div>
+        <div style="display:flex;">
+            <input type="text" id="broadcastInput" placeholder="发送广播消息..." style="flex:1;">
+            <button onclick="sendBroadcast()">发送广播</button>
+        </div>
+
+        <!-- 私信区域 -->
+        <h4>私信</h4>
+        <div style="display:flex; gap:10px;">
+            <select id="recipientSelect">
+                <option value="">选择收件人</option>
+                <option value="user1">user1</option>
+                <option value="user2">user2</option>
+            </select>
+            <input type="text" id="privateInput" placeholder="输入私信内容..." style="flex:1;">
+            <button onclick="sendPrivate()">发送私信</button>
+        </div>
+        <div class="message-list" id="privateMessages"></div>
+    </div>
+
+    <script>
+        // 全局STOMP客户端
+        let stompClient = null;
+
+        /**
+         * 建立WebSocket连接
+         * 注意：必须先加载SockJS和STOMP库
+         */
+        function connect() {
+            const username = document.getElementById('username').value.trim();
+            if (!username) {
+                alert('请输入用户名');
+                return;
+            }
+
+            // 创建SockJS连接（自动处理浏览器兼容性）
+            // 注意：/ws是WebSocketConfig中注册的STOMP端点
+            const socket = new SockJS('/ws');
+
+            // 创建STOMP客户端（over SockJS）
+            stompClient = Stomp.over(socket);
+
+            // 关闭调试日志（生产环境）
+            stompClient.debug = function() {};
+
+            // 连接到服务器
+            stompClient.connect(
+                { username: username },  // 登录信息（对应SimpUser）
+                function(frame) {
+                    // 连接成功
+                    document.getElementById('status').textContent = '状态：已连接（' + username + '）';
+                    document.getElementById('status').className = 'status connected';
+                    document.getElementById('loginPanel').style.display = 'none';
+                    document.getElementById('chatPanel').style.display = 'block';
+
+                    console.log('STOMP连接成功');
+
+                    // 订阅广播主题（所有用户都能收到）
+                    // 注意：/topic/notifications 对应 @SendTo("/topic/notifications")
+                    stompClient.subscribe('/topic/notifications', function(message) {
+                        const body = JSON.parse(message.body);
+                        addMessage('broadcastMessages', body.content || message.body, 'received', '系统公告');
+                    });
+
+                    // 订阅私有队列（只有当前用户能收到）
+                    // 注意：/user/queue/messages 是Spring STOMP的私有队列前缀
+                    stompClient.subscribe('/user/queue/messages', function(message) {
+                        const body = JSON.parse(message.body);
+                        addMessage('privateMessages', body.content || message.body, 'received', body.sender);
+                    });
+                },
+                function(error) {
+                    // 连接失败
+                    document.getElementById('status').textContent = '状态：连接失败';
+                    document.getElementById('status').className = 'status disconnected';
+                    console.error('STOMP连接失败：', error);
+                }
+            );
+        }
+
+        /**
+         * 发送广播消息
+         * 路由：/app/notification -> @MessageMapping("/notification") -> @SendTo("/topic/notifications")
+         */
+        function sendBroadcast() {
+            const input = document.getElementById('broadcastInput');
+            const content = input.value.trim();
+            if (!content) return;
+
+            // 发送消息到 /app/notification
+            // 注意：无需手动拼接/app前缀，stompClient.send会自动添加
+            stompClient.send(
+                '/app/notification',  // 目标路径（@MessageMapping映射）
+                {},
+                JSON.stringify({ content: content, type: 'notification' })
+            );
+
+            addMessage('broadcastMessages', content, 'sent', '我');
+            input.value = '';
+        }
+
+        /**
+         * 发送私信
+         * 路由：/app/chat.private -> ChatController.sendPrivateMessage -> convertAndSendToUser
+         */
+        function sendPrivate() {
+            const recipient = document.getElementById('recipientSelect').value;
+            const input = document.getElementById('privateInput');
+            const content = input.value.trim();
+
+            if (!recipient) {
+                alert('请选择收件人');
+                return;
+            }
+            if (!content) return;
+
+            const username = document.getElementById('username').value.trim();
+
+            // 发送私信到 /app/chat.private
+            stompClient.send(
+                '/app/chat.private',
+                {},
+                JSON.stringify({
+                    sender: username,
+                    recipient: recipient,
+                    content: content,
+                    type: 'chat'
+                })
+            );
+
+            addMessage('privateMessages', content, 'sent', '我 → ' + recipient);
+            input.value = '';
+        }
+
+        /**
+         * 添加消息到消息列表
+         */
+        function addMessage(listId, content, type, sender) {
+            const list = document.getElementById(listId);
+            const div = document.createElement('div');
+            div.className = 'message ' + type;
+            div.innerHTML = '<strong>' + sender + '：</strong>' + content;
+            list.appendChild(div);
+            list.scrollTop = list.scrollHeight;
+        }
+    </script>
+</body>
+</html>

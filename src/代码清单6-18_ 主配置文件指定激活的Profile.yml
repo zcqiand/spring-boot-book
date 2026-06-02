@@ -1,0 +1,13 @@
+# application.yml
+spring:
+  application:
+    name: xr-tech-demo
+  # 默认激活开发环境
+  profiles:
+    active: dev
+
+# 也可以通过命令行参数覆盖：
+# java -jar app.jar --spring.profiles.active=prod
+
+# 或通过环境变量覆盖：
+# export SPRING_PROFILES_ACTIVE=prod

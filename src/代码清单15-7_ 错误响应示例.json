@@ -1,0 +1,6 @@
+{
+    "success": false,
+    "code": 409,
+    "message": "用户ID不能为负数",
+    "path": "/api/users/-1"
+}

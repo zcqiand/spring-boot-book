@@ -1,0 +1,50 @@
+# 文件：resources/db/changelog/db.changelog.yaml
+databaseChangeLog:
+  - changeSet:
+      id: "1-init-schema"
+      author: "dev-team"
+      changes:
+        - createTable:
+            tableName: "t_user"
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: username
+                  type: VARCHAR(50)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: password
+                  type: VARCHAR(100)
+              - column:
+                  name: email
+                  type: VARCHAR(100)
+              - column:
+                  name: status
+                  type: TINYINT
+                  defaultValueNumeric: 1
+  - changeSet:
+      id: "2-create-role"
+      author: "dev-team"
+      changes:
+        - createTable:
+            tableName: "t_role"
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: role_name
+                  type: VARCHAR(50)
+                  constraints:
+                    nullable: false
+                    unique: true

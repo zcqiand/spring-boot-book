@@ -1,0 +1,31 @@
+replicaCount: 3
+
+image:
+  repository: myregistry/spring-boot-app
+  tag: "1.0.0"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8080
+
+ingress:
+  enabled: true
+  className: nginx
+  host: springboot.example.com
+  path: /
+  tls: true
+  secretName: spring-boot-tls
+
+resources:
+  limits:
+    memory: 1Gi
+    cpu: 500m
+  requests:
+    memory: 512Mi
+    cpu: 250m
+
+probe:
+  readinessPath: /actuator/health
+  livenessPath: /actuator/health

@@ -1,0 +1,1 @@
+curl -u admin:admin123 http://localhost:8080/api/admin/users

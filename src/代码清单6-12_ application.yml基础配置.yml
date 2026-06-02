@@ -1,0 +1,36 @@
+# 服务器配置
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+
+# 应用配置
+spring:
+  application:
+    name: xr-tech-demo
+  # 数据源配置（分层结构）
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      connection-timeout: 30000
+  # JPA配置
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format-sql: true
+
+# 日志配置
+logging:
+  level:
+    root: INFO
+    com.example.demo: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"

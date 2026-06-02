@@ -1,0 +1,9 @@
+<!-- 所有环境执行 -->
+<changeSet id="1" author="zcqiand">
+    <createTable tableName="user"/>
+</changeSet>
+
+<!-- 仅开发环境 -->
+<changeSet id="2" author="zcqiand" context="dev">
+    <insert tableName="user"/>
+</changeSet>

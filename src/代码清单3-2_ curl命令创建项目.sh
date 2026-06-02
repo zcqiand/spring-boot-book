@@ -1,0 +1,12 @@
+curl https://start.spring.io/starter.zip \
+  -d type=maven-project \
+  -d language=java \
+  -d bootVersion=3.4.3 \
+  -d baseDir=demo \
+  -d groupId=com.example \
+  -d artifactId=demo \
+  -d name=demo \
+  -d packageName=com.example.demo \
+  -d javaVersion=17 \
+  -d dependencies=web,data-jpa,h2 \
+  -o demo.zip && unzip demo.zip

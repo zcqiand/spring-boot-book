@@ -1,0 +1,21 @@
+# 生产环境配置
+spring:
+  datasource:
+    url: jdbc:mysql://prod-db.example.com:3306/demo_prod
+    username: prod_user
+    password: ${DB_PASSWORD}
+    hikari:
+      maximum-pool-size: 50
+      minimum-idle: 10
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: none
+
+# 生产环境日志级别
+logging:
+  level:
+    root: WARN
+    com.example.demo: INFO
+  file:
+    name: /var/log/demo/application.log
