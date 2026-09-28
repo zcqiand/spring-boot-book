@@ -1,5 +1,5 @@
 # 构建阶段
-FROM maven:3.9-eclipse-temurin-17 AS builder
+FROM maven:3.9-eclipse-temurin-21 AS builder
 WORKDIR /app
 COPY pom.xml .
 RUN mvn dependency:resolve dependency:resolve-plugins
@@ -8,7 +8,7 @@ COPY src ./src
 RUN mvn package -Pproduction -DskipTests
 
 # 运行阶段
-FROM eclipse-temurin:17-jre-alpine
+FROM eclipse-temurin:21-jre-alpine
 
 WORKDIR /app
 

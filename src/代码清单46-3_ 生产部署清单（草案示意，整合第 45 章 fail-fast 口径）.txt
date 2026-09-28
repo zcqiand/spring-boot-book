@@ -1,0 +1,12 @@
+镜像：双 tag 推送（:latest 与 :<tag>），回滚等于旧 tag 重跑同一个交付脚本。
+端口：application.yml、deploy 脚本 -p、nginx proxy_pass 三处同步；
+      容器端口只绑 127.0.0.1，公网流量只走 nginx 443。
+必填 env（缺一即拒绝部署，fail-fast 面合计七项）：
+      DATABASE_URL / DATABASE_USER / DATABASE_PASSWORD
+      JWT_SIGNING_KEY（32 字节以上随机串，key 名与 yml 占位符逐字同名）
+      LAB_SAAS_CLIENT_SECRET
+      LAB_SAAS_SERVICE_USER / LAB_SAAS_SERVICE_PASSWORD（首启自举时要求）
+数据库：DATABASE_NAME 由脚本固定写 lab_prod，不从外部传入；
+      远端 PG，容器不持有数据库文件，ddl-auto=validate。
+探针：宿主 wget 直探 127.0.0.1:5205/actuator/health，上限 120 秒。
+边界：日志轮转与数据库备份不在仓内交付范围，上线后自行接入。

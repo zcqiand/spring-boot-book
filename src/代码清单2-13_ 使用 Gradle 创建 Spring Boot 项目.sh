@@ -7,7 +7,7 @@ curl https://start.spring.io/starter.zip \
   -d artifactId=demo-gradle \
   -d name=demo-gradle \
   -d packageName=com.example.demo \
-  -d javaVersion=17 \
+  -d javaVersion=21 \
   -d dependencies=web \
   -o demo-gradle.zip
 

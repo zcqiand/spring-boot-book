@@ -7,6 +7,6 @@ curl https://start.spring.io/starter.zip \
   -d artifactId=demo \
   -d name=demo \
   -d packageName=com.example.demo \
-  -d javaVersion=17 \
+  -d javaVersion=21 \
   -d dependencies=web,data-jpa,h2 \
   -o demo.zip && unzip demo.zip

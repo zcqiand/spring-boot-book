@@ -1,0 +1,17 @@
+# 字典表设计规范清单
+1. 数据归属先行：租户私有数据加 tenant_id 且每条查询首位过滤；
+   平台共享数据不设租户列，服务不读租户声明（M06 字典 per V012）
+2. 主键 = 业务编码（64 长度字符串）；官方编号单列存档（official_no），
+   编码与官方编号分开管
+3. 归属分两档：字典内部强归属建真实外键（RESTRICT）；
+   跨域描述性引用走编码弱引用（ch38：引用失效时数据还算不算数）
+4. 默认值钉进字段声明：is_official 默认 true、
+   is_optional_for_qualification 默认 false，最常见的取值不留给调用方猜
+5. 脏名归一：raw_name 存原文、canonical_name 存规范名、name 存展示名，
+   另设 jsonb 别名数组（aliases）
+6. 枚举列走属性转换器（AttributeConverter），落库值与接口文档字符串同源
+   （source_type: OFFICIAL → official）
+7. 删除策略：enabled 软开关管退役，硬删由 RESTRICT 外键兜底，
+   服务层存在性检查只管 404 语义
+8. 时间戳 created_at/updated_at 非空，由服务层回填：
+   创建同时盖两个，更新只刷 updatedAt

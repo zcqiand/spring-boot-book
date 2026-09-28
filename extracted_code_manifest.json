@@ -1,0 +1,4490 @@
+[
+  {
+    "title": "代码清单1-1: 主程序启动类",
+    "lang": "java",
+    "chapter_file": "chapter-001.md",
+    "line": 151,
+    "extracted_file": "src\\代码清单1-1_ 主程序启动类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单1-2: pom.xml依赖配置",
+    "lang": "xml",
+    "chapter_file": "chapter-001.md",
+    "line": 172,
+    "extracted_file": "src\\代码清单1-2_ pom.xml依赖配置.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单1-3: application.properties配置",
+    "lang": "properties",
+    "chapter_file": "chapter-001.md",
+    "line": 225,
+    "extracted_file": "src\\代码清单1-3_ application.properties配置.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单1-4: DemoApplication主类",
+    "lang": "java",
+    "chapter_file": "chapter-001.md",
+    "line": 239,
+    "extracted_file": "src\\代码清单1-4_ DemoApplication主类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单1-5: Maven启动命令",
+    "lang": "bash",
+    "chapter_file": "chapter-001.md",
+    "line": 262,
+    "extracted_file": "src\\代码清单1-5_ Maven启动命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单1-6: HelloController错误示例",
+    "lang": "java",
+    "chapter_file": "chapter-001.md",
+    "line": 285,
+    "extracted_file": "src\\代码清单1-6_ HelloController错误示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单1-7: HelloController正确示例",
+    "lang": "java",
+    "chapter_file": "chapter-001.md",
+    "line": 301,
+    "extracted_file": "src\\代码清单1-7_ HelloController正确示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单1-8: ComponentScan修改",
+    "lang": "java",
+    "chapter_file": "chapter-001.md",
+    "line": 313,
+    "extracted_file": "src\\代码清单1-8_ ComponentScan修改.java",
+    "source": null
+  },
+  {
+    "title": "代码清单1-9: BookController",
+    "lang": "java",
+    "chapter_file": "chapter-001.md",
+    "line": 335,
+    "extracted_file": "src\\代码清单1-9_ BookController.java",
+    "source": null
+  },
+  {
+    "title": "代码清单1-10: curl测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-001.md",
+    "line": 350,
+    "extracted_file": "src\\代码清单1-10_ curl测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单1-11: Maven常用命令",
+    "lang": "bash",
+    "chapter_file": "chapter-001.md",
+    "line": 360,
+    "extracted_file": "src\\代码清单1-11_ Maven常用命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单2-1: Windows 环境变量配置示例",
+    "lang": "bash",
+    "chapter_file": "chapter-002.md",
+    "line": 88,
+    "extracted_file": "src\\代码清单2-1_ Windows 环境变量配置示例.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单2-2: macOS/Linux 环境变量配置示例",
+    "lang": "bash",
+    "chapter_file": "chapter-002.md",
+    "line": 95,
+    "extracted_file": "src\\代码清单2-2_ macOS_Linux 环境变量配置示例.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单2-3: 验证 JDK 安装",
+    "lang": "bash",
+    "chapter_file": "chapter-002.md",
+    "line": 105,
+    "extracted_file": "src\\代码清单2-3_ 验证 JDK 安装.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单2-4: Maven 环境变量配置",
+    "lang": "bash",
+    "chapter_file": "chapter-002.md",
+    "line": 127,
+    "extracted_file": "src\\代码清单2-4_ Maven 环境变量配置.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单2-5: Maven settings.xml 阿里云镜像配置",
+    "lang": "xml",
+    "chapter_file": "chapter-002.md",
+    "line": 139,
+    "extracted_file": "src\\代码清单2-5_ Maven settings.xml 阿里云镜像配置.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单2-6: 验证 Maven 安装",
+    "lang": "bash",
+    "chapter_file": "chapter-002.md",
+    "line": 159,
+    "extracted_file": "src\\代码清单2-6_ 验证 Maven 安装.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单2-7: Gradle 环境变量配置",
+    "lang": "bash",
+    "chapter_file": "chapter-002.md",
+    "line": 176,
+    "extracted_file": "src\\代码清单2-7_ Gradle 环境变量配置.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单2-8: 验证 Gradle 安装",
+    "lang": "bash",
+    "chapter_file": "chapter-002.md",
+    "line": 188,
+    "extracted_file": "src\\代码清单2-8_ 验证 Gradle 安装.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单2-9: 使用 Spring Initializr 命令行创建项目",
+    "lang": "bash",
+    "chapter_file": "chapter-002.md",
+    "line": 210,
+    "extracted_file": "src\\代码清单2-9_ 使用 Spring Initializr 命令行创建项目.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单2-10: 解压并运行项目",
+    "lang": "bash",
+    "chapter_file": "chapter-002.md",
+    "line": 275,
+    "extracted_file": "src\\代码清单2-10_ 解压并运行项目.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单2-11: HelloController 示例",
+    "lang": "java",
+    "chapter_file": "chapter-002.md",
+    "line": 299,
+    "extracted_file": "src\\代码清单2-11_ HelloController 示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单2-12: 环境验证命令",
+    "lang": "bash",
+    "chapter_file": "chapter-002.md",
+    "line": 323,
+    "extracted_file": "src\\代码清单2-12_ 环境验证命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单2-13: 使用 Gradle 创建 Spring Boot 项目",
+    "lang": "bash",
+    "chapter_file": "chapter-002.md",
+    "line": 342,
+    "extracted_file": "src\\代码清单2-13_ 使用 Gradle 创建 Spring Boot 项目.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单2-14: Gradle build.gradle 示例",
+    "lang": "groovy",
+    "chapter_file": "chapter-002.md",
+    "line": 361,
+    "extracted_file": "src\\代码清单2-14_ Gradle build.gradle 示例.groovy",
+    "source": null
+  },
+  {
+    "title": "代码清单3-1: Maven启动命令",
+    "lang": "bash",
+    "chapter_file": "chapter-003.md",
+    "line": 107,
+    "extracted_file": "src\\代码清单3-1_ Maven启动命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单3-2: curl命令创建项目",
+    "lang": "bash",
+    "chapter_file": "chapter-003.md",
+    "line": 118,
+    "extracted_file": "src\\代码清单3-2_ curl命令创建项目.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单3-3: Spring Boot CLI创建项目",
+    "lang": "bash",
+    "chapter_file": "chapter-003.md",
+    "line": 135,
+    "extracted_file": "src\\代码清单3-3_ Spring Boot CLI创建项目.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单3-4: pom.xml核心配置",
+    "lang": "xml",
+    "chapter_file": "chapter-003.md",
+    "line": 143,
+    "extracted_file": "src\\代码清单3-4_ pom.xml核心配置.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单3-5: application.properties基础配置",
+    "lang": "properties",
+    "chapter_file": "chapter-003.md",
+    "line": 197,
+    "extracted_file": "src\\代码清单3-5_ application.properties基础配置.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单3-6: 环境验证命令",
+    "lang": "bash",
+    "chapter_file": "chapter-003.md",
+    "line": 226,
+    "extracted_file": "src\\代码清单3-6_ 环境验证命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单4-1: Spring Boot主类",
+    "lang": "java",
+    "chapter_file": "chapter-004.md",
+    "line": 23,
+    "extracted_file": "src\\代码清单4-1_ Spring Boot主类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单4-2: @SpringBootApplication分解与等价写法",
+    "lang": "java",
+    "chapter_file": "chapter-004.md",
+    "line": 114,
+    "extracted_file": "src\\代码清单4-2_ @SpringBootApplication分解与等价写法.java",
+    "source": null
+  },
+  {
+    "title": "代码清单4-3: @ComponentScan自定义扫描范围",
+    "lang": "java",
+    "chapter_file": "chapter-004.md",
+    "line": 168,
+    "extracted_file": "src\\代码清单4-3_ @ComponentScan自定义扫描范围.java",
+    "source": null
+  },
+  {
+    "title": "代码清单4-4: 启用自动配置报告",
+    "lang": "properties",
+    "chapter_file": "chapter-004.md",
+    "line": 193,
+    "extracted_file": "src\\代码清单4-4_ 启用自动配置报告.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单4-5: @Conditional条件注解完整示例",
+    "lang": "java",
+    "chapter_file": "chapter-004.md",
+    "line": 256,
+    "extracted_file": "src\\代码清单4-5_ @Conditional条件注解完整示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单4-6: 缓存配置示例",
+    "lang": "properties",
+    "chapter_file": "chapter-004.md",
+    "line": 321,
+    "extracted_file": "src\\代码清单4-6_ 缓存配置示例.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单4-7: 条件注解组合示例",
+    "lang": "java",
+    "chapter_file": "chapter-004.md",
+    "line": 331,
+    "extracted_file": "src\\代码清单4-7_ 条件注解组合示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单4-8: 通过主类排除自动配置",
+    "lang": "java",
+    "chapter_file": "chapter-004.md",
+    "line": 384,
+    "extracted_file": "src\\代码清单4-8_ 通过主类排除自动配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单4-9: 通过配置排除自动配置",
+    "lang": "properties",
+    "chapter_file": "chapter-004.md",
+    "line": 403,
+    "extracted_file": "src\\代码清单4-9_ 通过配置排除自动配置.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单4-10: 传统exclude属性方式",
+    "lang": "properties",
+    "chapter_file": "chapter-004.md",
+    "line": 416,
+    "extracted_file": "src\\代码清单4-10_ 传统exclude属性方式.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单4-11: 用户定义Bean优先于自动配置",
+    "lang": "java",
+    "chapter_file": "chapter-004.md",
+    "line": 429,
+    "extracted_file": "src\\代码清单4-11_ 用户定义Bean优先于自动配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单4-12: DataSource配置优先级分析",
+    "lang": "java",
+    "chapter_file": "chapter-004.md",
+    "line": 463,
+    "extracted_file": "src\\代码清单4-12_ DataSource配置优先级分析.java",
+    "source": null
+  },
+  {
+    "title": "代码清单4-13: application.yml中的数据源配置",
+    "lang": "properties",
+    "chapter_file": "chapter-004.md",
+    "line": 508,
+    "extracted_file": "src\\代码清单4-13_ application.yml中的数据源配置.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单4-14: 指定自动配置加载顺序",
+    "lang": "java",
+    "chapter_file": "chapter-004.md",
+    "line": 532,
+    "extracted_file": "src\\代码清单4-14_ 指定自动配置加载顺序.java",
+    "source": null
+  },
+  {
+    "title": "代码清单4-15: 启用debug模式",
+    "lang": "properties",
+    "chapter_file": "chapter-004.md",
+    "line": 562,
+    "extracted_file": "src\\代码清单4-15_ 启用debug模式.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单4-16: 排除自动配置实验",
+    "lang": "java",
+    "chapter_file": "chapter-004.md",
+    "line": 608,
+    "extracted_file": "src\\代码清单4-16_ 排除自动配置实验.java",
+    "source": null
+  },
+  {
+    "title": "代码清单4-17: 条件注解组合实验",
+    "lang": "java",
+    "chapter_file": "chapter-004.md",
+    "line": 625,
+    "extracted_file": "src\\代码清单4-17_ 条件注解组合实验.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-1: 传统方式主动创建依赖",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 31,
+    "extracted_file": "src\\代码清单5-1_ 传统方式主动创建依赖.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-2: IoC方式依赖由外部注入",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 42,
+    "extracted_file": "src\\代码清单5-2_ IoC方式依赖由外部注入.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-3: 构造器注入示例",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 73,
+    "extracted_file": "src\\代码清单5-3_ 构造器注入示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-4: Setter注入示例",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 101,
+    "extracted_file": "src\\代码清单5-4_ Setter注入示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-5: 可选配置的Setter注入",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 116,
+    "extracted_file": "src\\代码清单5-5_ 可选配置的Setter注入.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-6: 字段注入示例",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 139,
+    "extracted_file": "src\\代码清单5-6_ 字段注入示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-7: @Component示例",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 167,
+    "extracted_file": "src\\代码清单5-7_ @Component示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-8: @Bean示例",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 182,
+    "extracted_file": "src\\代码清单5-8_ @Bean示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-9: 构造器上的@Autowired",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 211,
+    "extracted_file": "src\\代码清单5-9_ 构造器上的@Autowired.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-10: 解决Bean歧义",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 229,
+    "extracted_file": "src\\代码清单5-10_ 解决Bean歧义.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-11: Bean作用域示例",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 248,
+    "extracted_file": "src\\代码清单5-11_ Bean作用域示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-12: 构造器注入实现服务编排",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 281,
+    "extracted_file": "src\\代码清单5-12_ 构造器注入实现服务编排.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-13: @Bean注册第三方类",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 331,
+    "extracted_file": "src\\代码清单5-13_ @Bean注册第三方类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-14: @Component标注服务类",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 372,
+    "extracted_file": "src\\代码清单5-14_ @Component标注服务类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-15: @Configuration与@Bean声明Bean",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 404,
+    "extracted_file": "src\\代码清单5-15_ @Configuration与@Bean声明Bean.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-16: @Autowired字段注入",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 446,
+    "extracted_file": "src\\代码清单5-16_ @Autowired字段注入.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-17: @Autowired构造器注入（推荐方式）",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 472,
+    "extracted_file": "src\\代码清单5-17_ @Autowired构造器注入（推荐方式）.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-18: @Autowired Setter注入",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 505,
+    "extracted_file": "src\\代码清单5-18_ @Autowired Setter注入.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-19: 完整的构造器注入示例",
+    "lang": "java",
+    "chapter_file": "chapter-005.md",
+    "line": 542,
+    "extracted_file": "src\\代码清单5-19_ 完整的构造器注入示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单5-20: 项目编译运行验证命令",
+    "lang": "bash",
+    "chapter_file": "chapter-005.md",
+    "line": 758,
+    "extracted_file": "src\\代码清单5-20_ 项目编译运行验证命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单5-21: @Primary对比运行命令",
+    "lang": "bash",
+    "chapter_file": "chapter-005.md",
+    "line": 781,
+    "extracted_file": "src\\代码清单5-21_ @Primary对比运行命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单6-1: 硬编码配置示例",
+    "lang": "java",
+    "chapter_file": "chapter-006.md",
+    "line": 31,
+    "extracted_file": "src\\代码清单6-1_ 硬编码配置示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单6-2: application.properties示例",
+    "lang": "properties",
+    "chapter_file": "chapter-006.md",
+    "line": 57,
+    "extracted_file": "src\\代码清单6-2_ application.properties示例.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单6-3: application.yml示例",
+    "lang": "yaml",
+    "chapter_file": "chapter-006.md",
+    "line": 70,
+    "extracted_file": "src\\代码清单6-3_ application.yml示例.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-4: @Value注入的缺点",
+    "lang": "java",
+    "chapter_file": "chapter-006.md",
+    "line": 105,
+    "extracted_file": "src\\代码清单6-4_ @Value注入的缺点.java",
+    "source": null
+  },
+  {
+    "title": "代码清单6-5: @ConfigurationProperties示例",
+    "lang": "java",
+    "chapter_file": "chapter-006.md",
+    "line": 128,
+    "extracted_file": "src\\代码清单6-5_ @ConfigurationProperties示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单6-6: 使用配置属性Bean",
+    "lang": "java",
+    "chapter_file": "chapter-006.md",
+    "line": 142,
+    "extracted_file": "src\\代码清单6-6_ 使用配置属性Bean.java",
+    "source": null
+  },
+  {
+    "title": "代码清单6-7: 激活环境配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-006.md",
+    "line": 182,
+    "extracted_file": "src\\代码清单6-7_ 激活环境配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-8: 公共配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-006.md",
+    "line": 194,
+    "extracted_file": "src\\代码清单6-8_ 公共配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-9: application-dev.yml",
+    "lang": "yaml",
+    "chapter_file": "chapter-006.md",
+    "line": 202,
+    "extracted_file": "src\\代码清单6-9_ application-dev.yml.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-10: application-prod.yml",
+    "lang": "yaml",
+    "chapter_file": "chapter-006.md",
+    "line": 211,
+    "extracted_file": "src\\代码清单6-10_ application-prod.yml.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-11: application.properties基础配置",
+    "lang": "properties",
+    "chapter_file": "chapter-006.md",
+    "line": 230,
+    "extracted_file": "src\\代码清单6-11_ application.properties基础配置.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单6-12: application.yml基础配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-006.md",
+    "line": 259,
+    "extracted_file": "src\\代码清单6-12_ application.yml基础配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-13: 配置属性Bean定义",
+    "lang": "java",
+    "chapter_file": "chapter-006.md",
+    "line": 304,
+    "extracted_file": "src\\代码清单6-13_ 配置属性Bean定义.java",
+    "source": null
+  },
+  {
+    "title": "代码清单6-14: 配置属性Bean对应的YAML配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-006.md",
+    "line": 353,
+    "extracted_file": "src\\代码清单6-14_ 配置属性Bean对应的YAML配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-15: application-dev.yml（开发环境）",
+    "lang": "yaml",
+    "chapter_file": "chapter-006.md",
+    "line": 370,
+    "extracted_file": "src\\代码清单6-15_ application-dev.yml（开发环境）.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-16: application-test.yml（测试环境）",
+    "lang": "yaml",
+    "chapter_file": "chapter-006.md",
+    "line": 391,
+    "extracted_file": "src\\代码清单6-16_ application-test.yml（测试环境）.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-17: application-prod.yml（生产环境）",
+    "lang": "yaml",
+    "chapter_file": "chapter-006.md",
+    "line": 412,
+    "extracted_file": "src\\代码清单6-17_ application-prod.yml（生产环境）.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-18: 主配置文件指定激活的Profile",
+    "lang": "yaml",
+    "chapter_file": "chapter-006.md",
+    "line": 438,
+    "extracted_file": "src\\代码清单6-18_ 主配置文件指定激活的Profile.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-19: 带校验的配置属性类",
+    "lang": "java",
+    "chapter_file": "chapter-006.md",
+    "line": 460,
+    "extracted_file": "src\\代码清单6-19_ 带校验的配置属性类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单6-20: 配置校验示例YAML",
+    "lang": "yaml",
+    "chapter_file": "chapter-006.md",
+    "line": 515,
+    "extracted_file": "src\\代码清单6-20_ 配置校验示例YAML.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-21: Maven依赖配置",
+    "lang": "xml",
+    "chapter_file": "chapter-006.md",
+    "line": 542,
+    "extracted_file": "src\\代码清单6-21_ Maven依赖配置.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-22: HikariCP配置属性类",
+    "lang": "java",
+    "chapter_file": "chapter-006.md",
+    "line": 567,
+    "extracted_file": "src\\代码清单6-22_ HikariCP配置属性类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单6-23: HikariCP完整配置示例",
+    "lang": "yaml",
+    "chapter_file": "chapter-006.md",
+    "line": 636,
+    "extracted_file": "src\\代码清单6-23_ HikariCP完整配置示例.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单6-24: 验证HikariCP配置",
+    "lang": "bash",
+    "chapter_file": "chapter-006.md",
+    "line": 658,
+    "extracted_file": "src\\代码清单6-24_ 验证HikariCP配置.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单7-1: 排除传递依赖示例",
+    "lang": "xml",
+    "chapter_file": "chapter-007.md",
+    "line": 167,
+    "extracted_file": "src\\代码清单7-1_ 排除传递依赖示例.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单7-2: 禁用自动配置示例",
+    "lang": "java",
+    "chapter_file": "chapter-007.md",
+    "line": 192,
+    "extracted_file": "src\\代码清单7-2_ 禁用自动配置示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单7-3: Maven依赖树分析命令",
+    "lang": "bash",
+    "chapter_file": "chapter-007.md",
+    "line": 214,
+    "extracted_file": "src\\代码清单7-3_ Maven依赖树分析命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单7-4: Maven依赖冲突定位命令",
+    "lang": "bash",
+    "chapter_file": "chapter-007.md",
+    "line": 233,
+    "extracted_file": "src\\代码清单7-4_ Maven依赖冲突定位命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单7-5: Maven锁定依赖版本配置",
+    "lang": "xml",
+    "chapter_file": "chapter-007.md",
+    "line": 242,
+    "extracted_file": "src\\代码清单7-5_ Maven锁定依赖版本配置.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单7-6: REST API练习验证命令",
+    "lang": "bash",
+    "chapter_file": "chapter-007.md",
+    "line": 299,
+    "extracted_file": "src\\代码清单7-6_ REST API练习验证命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单8-1: 条件日志最佳实践",
+    "lang": "java",
+    "chapter_file": "chapter-008.md",
+    "line": 86,
+    "extracted_file": "src\\代码清单8-1_ 条件日志最佳实践.java",
+    "source": null
+  },
+  {
+    "title": "代码清单8-2: 声明Logger",
+    "lang": "java",
+    "chapter_file": "chapter-008.md",
+    "line": 149,
+    "extracted_file": "src\\代码清单8-2_ 声明Logger.java",
+    "source": null
+  },
+  {
+    "title": "代码清单8-3: 日志配置示例",
+    "lang": "properties",
+    "chapter_file": "chapter-008.md",
+    "line": 159,
+    "extracted_file": "src\\代码清单8-3_ 日志配置示例.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单8-4: 日志级别配置",
+    "lang": "java",
+    "chapter_file": "chapter-008.md",
+    "line": 177,
+    "extracted_file": "src\\代码清单8-4_ 日志级别配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单8-5: 自定义日志配置",
+    "lang": "xml",
+    "chapter_file": "chapter-008.md",
+    "line": 192,
+    "extracted_file": "src\\代码清单8-5_ 自定义日志配置.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单8-6: 条件日志最佳实践",
+    "lang": "java",
+    "chapter_file": "chapter-008.md",
+    "line": 250,
+    "extracted_file": "src\\代码清单8-6_ 条件日志最佳实践.java",
+    "source": null
+  },
+  {
+    "title": "代码清单8-7: 实战练习命令",
+    "lang": "bash",
+    "chapter_file": "chapter-008.md",
+    "line": 298,
+    "extracted_file": "src\\代码清单8-7_ 实战练习命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单9-1: 访问Actuator端点",
+    "lang": "bash",
+    "chapter_file": "chapter-009.md",
+    "line": 227,
+    "extracted_file": "src\\代码清单9-1_ 访问Actuator端点.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单9-2: 实战练习命令",
+    "lang": "bash",
+    "chapter_file": "chapter-009.md",
+    "line": 288,
+    "extracted_file": "src\\代码清单9-2_ 实战练习命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单10-1: BookController REST控制器",
+    "lang": "java",
+    "chapter_file": "chapter-010.md",
+    "line": 109,
+    "extracted_file": "src\\代码清单10-1_ BookController REST控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单10-2: DTO record类定义",
+    "lang": "java",
+    "chapter_file": "chapter-010.md",
+    "line": 207,
+    "extracted_file": "src\\代码清单10-2_ DTO record类定义.java",
+    "source": null
+  },
+  {
+    "title": "代码清单10-3: 全局异常处理器",
+    "lang": "java",
+    "chapter_file": "chapter-010.md",
+    "line": 273,
+    "extracted_file": "src\\代码清单10-3_ 全局异常处理器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单10-4: URL路径版本管理",
+    "lang": "java",
+    "chapter_file": "chapter-010.md",
+    "line": 378,
+    "extracted_file": "src\\代码清单10-4_ URL路径版本管理.java",
+    "source": null
+  },
+  {
+    "title": "代码清单10-5: ApiResponse统一响应包装器",
+    "lang": "java",
+    "chapter_file": "chapter-010.md",
+    "line": 471,
+    "extracted_file": "src\\代码清单10-5_ ApiResponse统一响应包装器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单10-6: 使用ApiResponse包装响应",
+    "lang": "java",
+    "chapter_file": "chapter-010.md",
+    "line": 521,
+    "extracted_file": "src\\代码清单10-6_ 使用ApiResponse包装响应.java",
+    "source": null
+  },
+  {
+    "title": "代码清单10-7: 图书借阅API控制器",
+    "lang": "java",
+    "chapter_file": "chapter-010.md",
+    "line": 542,
+    "extracted_file": "src\\代码清单10-7_ 图书借阅API控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单10-8: 借阅API的curl测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-010.md",
+    "line": 623,
+    "extracted_file": "src\\代码清单10-8_ 借阅API的curl测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单11-1: @Controller vs @RestController 对比",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 34,
+    "extracted_file": "src\\代码清单11-1_ @Controller vs @RestController 对比.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-2: @RequestMapping 完整写法",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 95,
+    "extracted_file": "src\\代码清单11-2_ @RequestMapping 完整写法.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-3: 基础 @PathVariable 用法",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 144,
+    "extracted_file": "src\\代码清单11-3_ 基础 @PathVariable 用法.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-4: 正则路径约束",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 162,
+    "extracted_file": "src\\代码清单11-4_ 正则路径约束.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-5: 内容协商配置",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 199,
+    "extracted_file": "src\\代码清单11-5_ 内容协商配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-6: @RestController 基础用法",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 242,
+    "extracted_file": "src\\代码清单11-6_ @RestController 基础用法.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-7: @RequestMapping 基础用法",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 282,
+    "extracted_file": "src\\代码清单11-7_ @RequestMapping 基础用法.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-8: HTTP方法快捷注解",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 349,
+    "extracted_file": "src\\代码清单11-8_ HTTP方法快捷注解.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-9: @PathVariable 详解",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 419,
+    "extracted_file": "src\\代码清单11-9_ @PathVariable 详解.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-10: @RequestParam 用法",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 487,
+    "extracted_file": "src\\代码清单11-10_ @RequestParam 用法.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-11: 完整用户管理REST控制器",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 538,
+    "extracted_file": "src\\代码清单11-11_ 完整用户管理REST控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-12: DTO类定义",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 648,
+    "extracted_file": "src\\代码清单11-12_ DTO类定义.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-13: Service接口与实现",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 753,
+    "extracted_file": "src\\代码清单11-13_ Service接口与实现.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-14: Service实现类",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 771,
+    "extracted_file": "src\\代码清单11-14_ Service实现类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单11-15: curl测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-011.md",
+    "line": 904,
+    "extracted_file": "src\\代码清单11-15_ curl测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单11-16: 评论管理控制器",
+    "lang": "java",
+    "chapter_file": "chapter-011.md",
+    "line": 924,
+    "extracted_file": "src\\代码清单11-16_ 评论管理控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-1: @RequestParam的required属性陷阱",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 36,
+    "extracted_file": "src\\代码清单12-1_ @RequestParam的required属性陷阱.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-2: defaultValue与required=false的区别",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 81,
+    "extracted_file": "src\\代码清单12-2_ defaultValue与required=false的区别.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-3: @RequestBody JSON反序列化",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 114,
+    "extracted_file": "src\\代码清单12-3_ @RequestBody JSON反序列化.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-4: JSON反序列化错误处理",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 151,
+    "extracted_file": "src\\代码清单12-4_ JSON反序列化错误处理.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-5: @RequestHeader用法",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 188,
+    "extracted_file": "src\\代码清单12-5_ @RequestHeader用法.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-6: @CookieValue用法",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 224,
+    "extracted_file": "src\\代码清单12-6_ @CookieValue用法.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-7: 常用校验注解",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 270,
+    "extracted_file": "src\\代码清单12-7_ 常用校验注解.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-8: BindingResult手动校验",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 324,
+    "extracted_file": "src\\代码清单12-8_ BindingResult手动校验.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-9: @RequestParam完整用法",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 353,
+    "extracted_file": "src\\代码清单12-9_ @RequestParam完整用法.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-10: @RequestBody JSON处理",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 420,
+    "extracted_file": "src\\代码清单12-10_ @RequestBody JSON处理.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-11: 产品相关DTO",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 523,
+    "extracted_file": "src\\代码清单12-11_ 产品相关DTO.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-12: 请求头与Cookie处理",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 622,
+    "extracted_file": "src\\代码清单12-12_ 请求头与Cookie处理.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-13: 文件上传处理",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 705,
+    "extracted_file": "src\\代码清单12-13_ 文件上传处理.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-14: 综合参数处理控制器",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 830,
+    "extracted_file": "src\\代码清单12-14_ 综合参数处理控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单12-15: 任务创建API测试",
+    "lang": "bash",
+    "chapter_file": "chapter-012.md",
+    "line": 1091,
+    "extracted_file": "src\\代码清单12-15_ 任务创建API测试.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单12-16: 任务管理控制器",
+    "lang": "java",
+    "chapter_file": "chapter-012.md",
+    "line": 1111,
+    "extracted_file": "src\\代码清单12-16_ 任务管理控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单13-1: @ResponseBody基础用法",
+    "lang": "java",
+    "chapter_file": "chapter-013.md",
+    "line": 106,
+    "extracted_file": "src\\代码清单13-1_ @ResponseBody基础用法.java",
+    "source": null
+  },
+  {
+    "title": "代码清单13-2: ResponseEntity精确控制响应",
+    "lang": "java",
+    "chapter_file": "chapter-013.md",
+    "line": 146,
+    "extracted_file": "src\\代码清单13-2_ ResponseEntity精确控制响应.java",
+    "source": null
+  },
+  {
+    "title": "代码清单13-3: 内容协商配置与实现",
+    "lang": "java",
+    "chapter_file": "chapter-013.md",
+    "line": 227,
+    "extracted_file": "src\\代码清单13-3_ 内容协商配置与实现.java",
+    "source": null
+  },
+  {
+    "title": "代码清单13-4: 多格式响应控制器",
+    "lang": "java",
+    "chapter_file": "chapter-013.md",
+    "line": 252,
+    "extracted_file": "src\\代码清单13-4_ 多格式响应控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单13-5: 缓存控制配置",
+    "lang": "java",
+    "chapter_file": "chapter-013.md",
+    "line": 293,
+    "extracted_file": "src\\代码清单13-5_ 缓存控制配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单13-6: 动态缓存控制",
+    "lang": "java",
+    "chapter_file": "chapter-013.md",
+    "line": 315,
+    "extracted_file": "src\\代码清单13-6_ 动态缓存控制.java",
+    "source": null
+  },
+  {
+    "title": "代码清单13-7: 完整的多格式响应REST端点模块",
+    "lang": "java",
+    "chapter_file": "chapter-013.md",
+    "line": 368,
+    "extracted_file": "src\\代码清单13-7_ 完整的多格式响应REST端点模块.java",
+    "source": null
+  },
+  {
+    "title": "代码清单13-8: 文章管理完整模块",
+    "lang": "java",
+    "chapter_file": "chapter-013.md",
+    "line": 471,
+    "extracted_file": "src\\代码清单13-8_ 文章管理完整模块.java",
+    "source": null
+  },
+  {
+    "title": "代码清单13-9: 多格式响应curl测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-013.md",
+    "line": 573,
+    "extracted_file": "src\\代码清单13-9_ 多格式响应curl测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单14-1: 验证组定义",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 66,
+    "extracted_file": "src\\代码清单14-1_ 验证组定义.java",
+    "source": null
+  },
+  {
+    "title": "代码清单14-2: BindingResult手动错误处理",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 81,
+    "extracted_file": "src\\代码清单14-2_ BindingResult手动错误处理.java",
+    "source": null
+  },
+  {
+    "title": "代码清单14-3: 自定义约束注解",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 114,
+    "extracted_file": "src\\代码清单14-3_ 自定义约束注解.java",
+    "source": null
+  },
+  {
+    "title": "代码清单14-4: Spring Boot Validation依赖配置",
+    "lang": "xml",
+    "chapter_file": "chapter-014.md",
+    "line": 136,
+    "extracted_file": "src\\代码清单14-4_ Spring Boot Validation依赖配置.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单14-5: Gradle验证依赖配置",
+    "lang": "groovy",
+    "chapter_file": "chapter-014.md",
+    "line": 155,
+    "extracted_file": "src\\代码清单14-5_ Gradle验证依赖配置.groovy",
+    "source": null
+  },
+  {
+    "title": "代码清单14-6: UserRequest带验证组定义",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 166,
+    "extracted_file": "src\\代码清单14-6_ UserRequest带验证组定义.java",
+    "source": null
+  },
+  {
+    "title": "代码清单14-7: 使用@Validated指定验证组的Controller",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 215,
+    "extracted_file": "src\\代码清单14-7_ 使用@Validated指定验证组的Controller.java",
+    "source": null
+  },
+  {
+    "title": "代码清单14-8: 使用BindingResult手动处理验证错误",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 265,
+    "extracted_file": "src\\代码清单14-8_ 使用BindingResult手动处理验证错误.java",
+    "source": null
+  },
+  {
+    "title": "代码清单14-9: 自定义验证注解@PhoneNumber",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 329,
+    "extracted_file": "src\\代码清单14-9_ 自定义验证注解@PhoneNumber.java",
+    "source": null
+  },
+  {
+    "title": "代码清单14-10: 手机号验证器实现",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 362,
+    "extracted_file": "src\\代码清单14-10_ 手机号验证器实现.java",
+    "source": null
+  },
+  {
+    "title": "代码清单14-11: 在实体类中使用@PhoneNumber",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 402,
+    "extracted_file": "src\\代码清单14-11_ 在实体类中使用@PhoneNumber.java",
+    "source": null
+  },
+  {
+    "title": "代码清单14-12: 全局验证异常处理器",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 426,
+    "extracted_file": "src\\代码清单14-12_ 全局验证异常处理器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单14-13: 验证接口curl测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-014.md",
+    "line": 519,
+    "extracted_file": "src\\代码清单14-13_ 验证接口curl测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单14-14: 完整注册功能实现",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 571,
+    "extracted_file": "src\\代码清单14-14_ 完整注册功能实现.java",
+    "source": null
+  },
+  {
+    "title": "代码清单14-15: 密码匹配验证器",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 605,
+    "extracted_file": "src\\代码清单14-15_ 密码匹配验证器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单14-16: 密码匹配验证器实现",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 623,
+    "extracted_file": "src\\代码清单14-16_ 密码匹配验证器实现.java",
+    "source": null
+  },
+  {
+    "title": "代码清单14-17: 注册Controller",
+    "lang": "java",
+    "chapter_file": "chapter-014.md",
+    "line": 643,
+    "extracted_file": "src\\代码清单14-17_ 注册Controller.java",
+    "source": null
+  },
+  {
+    "title": "代码清单15-1: 统一错误响应结构ApiResponse",
+    "lang": "java",
+    "chapter_file": "chapter-015.md",
+    "line": 98,
+    "extracted_file": "src\\代码清单15-1_ 统一错误响应结构ApiResponse.java",
+    "source": null
+  },
+  {
+    "title": "代码清单15-2: 业务异常基类BusinessException",
+    "lang": "java",
+    "chapter_file": "chapter-015.md",
+    "line": 163,
+    "extracted_file": "src\\代码清单15-2_ 业务异常基类BusinessException.java",
+    "source": null
+  },
+  {
+    "title": "代码清单15-3: 资源未找到异常ResourceNotFoundException",
+    "lang": "java",
+    "chapter_file": "chapter-015.md",
+    "line": 201,
+    "extracted_file": "src\\代码清单15-3_ 资源未找到异常ResourceNotFoundException.java",
+    "source": null
+  },
+  {
+    "title": "代码清单15-4: 业务规则异常BusinessRuleException",
+    "lang": "java",
+    "chapter_file": "chapter-015.md",
+    "line": 228,
+    "extracted_file": "src\\代码清单15-4_ 业务规则异常BusinessRuleException.java",
+    "source": null
+  },
+  {
+    "title": "代码清单15-5: 全局异常处理器GlobalExceptionHandler",
+    "lang": "java",
+    "chapter_file": "chapter-015.md",
+    "line": 264,
+    "extracted_file": "src\\代码清单15-5_ 全局异常处理器GlobalExceptionHandler.java",
+    "source": null
+  },
+  {
+    "title": "代码清单15-6: 异常处理测试控制器",
+    "lang": "java",
+    "chapter_file": "chapter-015.md",
+    "line": 443,
+    "extracted_file": "src\\代码清单15-6_ 异常处理测试控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单15-7: 错误响应示例",
+    "lang": "json",
+    "chapter_file": "chapter-015.md",
+    "line": 476,
+    "extracted_file": "src\\代码清单15-7_ 错误响应示例.json",
+    "source": null
+  },
+  {
+    "title": "代码清单15-8: 错误响应示例",
+    "lang": "json",
+    "chapter_file": "chapter-015.md",
+    "line": 487,
+    "extracted_file": "src\\代码清单15-8_ 错误响应示例.json",
+    "source": null
+  },
+  {
+    "title": "代码清单15-9: curl测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-015.md",
+    "line": 539,
+    "extracted_file": "src\\代码清单15-9_ curl测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单16-1: @CrossOrigin基础用法",
+    "lang": "java",
+    "chapter_file": "chapter-016.md",
+    "line": 117,
+    "extracted_file": "src\\代码清单16-1_ @CrossOrigin基础用法.java",
+    "source": null
+  },
+  {
+    "title": "代码清单16-2: 全局CORS配置类",
+    "lang": "java",
+    "chapter_file": "chapter-016.md",
+    "line": 167,
+    "extracted_file": "src\\代码清单16-2_ 全局CORS配置类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单16-3: 动态域名白名单CorsFilter",
+    "lang": "java",
+    "chapter_file": "chapter-016.md",
+    "line": 214,
+    "extracted_file": "src\\代码清单16-3_ 动态域名白名单CorsFilter.java",
+    "source": null
+  },
+  {
+    "title": "代码清单16-4: Spring Security CORS配置",
+    "lang": "java",
+    "chapter_file": "chapter-016.md",
+    "line": 284,
+    "extracted_file": "src\\代码清单16-4_ Spring Security CORS配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单16-5: CORS测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-016.md",
+    "line": 376,
+    "extracted_file": "src\\代码清单16-5_ CORS测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单16-6: 预检结果缓存时长配置",
+    "lang": "java",
+    "chapter_file": "chapter-016.md",
+    "line": 462,
+    "extracted_file": "src\\代码清单16-6_ 预检结果缓存时长配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单17-1: 请求日志Filter",
+    "lang": "java",
+    "chapter_file": "chapter-017.md",
+    "line": 94,
+    "extracted_file": "src\\代码清单17-1_ 请求日志Filter.java",
+    "source": null
+  },
+  {
+    "title": "代码清单17-2: 认证Filter",
+    "lang": "java",
+    "chapter_file": "chapter-017.md",
+    "line": 184,
+    "extracted_file": "src\\代码清单17-2_ 认证Filter.java",
+    "source": null
+  },
+  {
+    "title": "代码清单17-3: 用户上下文Interceptor",
+    "lang": "java",
+    "chapter_file": "chapter-017.md",
+    "line": 273,
+    "extracted_file": "src\\代码清单17-3_ 用户上下文Interceptor.java",
+    "source": null
+  },
+  {
+    "title": "代码清单17-4: 权限校验Interceptor",
+    "lang": "java",
+    "chapter_file": "chapter-017.md",
+    "line": 366,
+    "extracted_file": "src\\代码清单17-4_ 权限校验Interceptor.java",
+    "source": null
+  },
+  {
+    "title": "代码清单17-5: 注册Interceptor到Spring MVC",
+    "lang": "java",
+    "chapter_file": "chapter-017.md",
+    "line": 455,
+    "extracted_file": "src\\代码清单17-5_ 注册Interceptor到Spring MVC.java",
+    "source": null
+  },
+  {
+    "title": "代码清单17-6: curl测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-017.md",
+    "line": 539,
+    "extracted_file": "src\\代码清单17-6_ curl测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单17-7: Filter延迟注入Spring Bean",
+    "lang": "java",
+    "chapter_file": "chapter-017.md",
+    "line": 632,
+    "extracted_file": "src\\代码清单17-7_ Filter延迟注入Spring Bean.java",
+    "source": null
+  },
+  {
+    "title": "代码清单18-1: 添加WebSocket依赖",
+    "lang": "xml",
+    "chapter_file": "chapter-018.md",
+    "line": 84,
+    "extracted_file": "src\\代码清单18-1_ 添加WebSocket依赖.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单18-2: WebSocket配置类",
+    "lang": "java",
+    "chapter_file": "chapter-018.md",
+    "line": 95,
+    "extracted_file": "src\\代码清单18-2_ WebSocket配置类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单18-3: 广播消息控制器",
+    "lang": "java",
+    "chapter_file": "chapter-018.md",
+    "line": 127,
+    "extracted_file": "src\\代码清单18-3_ 广播消息控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单18-4: 点对点消息控制器",
+    "lang": "java",
+    "chapter_file": "chapter-018.md",
+    "line": 147,
+    "extracted_file": "src\\代码清单18-4_ 点对点消息控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单18-5: 消息实体类",
+    "lang": "java",
+    "chapter_file": "chapter-018.md",
+    "line": 178,
+    "extracted_file": "src\\代码清单18-5_ 消息实体类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单18-6: application.yml配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-018.md",
+    "line": 289,
+    "extracted_file": "src\\代码清单18-6_ application.yml配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单18-7: STOMP.js客户端连接工具类",
+    "lang": "javascript",
+    "chapter_file": "chapter-018.md",
+    "line": 333,
+    "extracted_file": "src\\代码清单18-7_ STOMP.js客户端连接工具类.js",
+    "source": null
+  },
+  {
+    "title": "代码清单18-8: 完整聊天页面示例",
+    "lang": "html",
+    "chapter_file": "chapter-018.md",
+    "line": 582,
+    "extracted_file": "src\\代码清单18-8_ 完整聊天页面示例.html",
+    "source": null
+  },
+  {
+    "title": "代码清单19-1: pom.xml中添加JPA和H2数据库依赖",
+    "lang": "xml",
+    "chapter_file": "chapter-019.md",
+    "line": 117,
+    "extracted_file": "src\\代码清单19-1_ pom.xml中添加JPA和H2数据库依赖.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单19-2: User实体类",
+    "lang": "java",
+    "chapter_file": "chapter-019.md",
+    "line": 150,
+    "extracted_file": "src\\代码清单19-2_ User实体类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单19-3: UserRepository接口",
+    "lang": "java",
+    "chapter_file": "chapter-019.md",
+    "line": 257,
+    "extracted_file": "src\\代码清单19-3_ UserRepository接口.java",
+    "source": null
+  },
+  {
+    "title": "代码清单19-4: UserService服务层",
+    "lang": "java",
+    "chapter_file": "chapter-019.md",
+    "line": 379,
+    "extracted_file": "src\\代码清单19-4_ UserService服务层.java",
+    "source": null
+  },
+  {
+    "title": "代码清单19-5: UserController控制器",
+    "lang": "java",
+    "chapter_file": "chapter-019.md",
+    "line": 597,
+    "extracted_file": "src\\代码清单19-5_ UserController控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单19-6: application.yml配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-019.md",
+    "line": 725,
+    "extracted_file": "src\\代码清单19-6_ application.yml配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单19-7: JpaApplication启动类",
+    "lang": "java",
+    "chapter_file": "chapter-019.md",
+    "line": 781,
+    "extracted_file": "src\\代码清单19-7_ JpaApplication启动类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-1: 订单实体",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 45,
+    "extracted_file": "src\\代码清单20-1_ 订单实体.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-2: @OneToOne 示例",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 89,
+    "extracted_file": "src\\代码清单20-2_ @OneToOne 示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-3: @OneToMany/@ManyToOne 示例",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 153,
+    "extracted_file": "src\\代码清单20-3_ @OneToMany_@ManyToOne 示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-4: 外键在子表的标准做法",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 206,
+    "extracted_file": "src\\代码清单20-4_ 外键在子表的标准做法.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-5: 使用关联表实现一对多",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 214,
+    "extracted_file": "src\\代码清单20-5_ 使用关联表实现一对多.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-6: @ManyToMany 示例",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 259,
+    "extracted_file": "src\\代码清单20-6_ @ManyToMany 示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-7: article_tags 中间表结构",
+    "lang": "sql",
+    "chapter_file": "chapter-020.md",
+    "line": 296,
+    "extracted_file": "src\\代码清单20-7_ article_tags 中间表结构.sql",
+    "source": null
+  },
+  {
+    "title": "代码清单20-8: 级联配置示例",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 347,
+    "extracted_file": "src\\代码清单20-8_ 级联配置示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-9: N+1 查询问题示例",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 392,
+    "extracted_file": "src\\代码清单20-9_ N+1 查询问题示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-10: N+1 问题解决",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 402,
+    "extracted_file": "src\\代码清单20-10_ N+1 问题解决.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-11: User实体",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 430,
+    "extracted_file": "src\\代码清单20-11_ User实体.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-12: Profile实体",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 486,
+    "extracted_file": "src\\代码清单20-12_ Profile实体.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-13: Order实体",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 510,
+    "extracted_file": "src\\代码清单20-13_ Order实体.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-14: Role实体",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 546,
+    "extracted_file": "src\\代码清单20-14_ Role实体.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-15: RoleRepository",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 585,
+    "extracted_file": "src\\代码清单20-15_ RoleRepository.java",
+    "source": null
+  },
+  {
+    "title": "代码清单20-16: RoleService",
+    "lang": "java",
+    "chapter_file": "chapter-020.md",
+    "line": 601,
+    "extracted_file": "src\\代码清单20-16_ RoleService.java",
+    "source": null
+  },
+  {
+    "title": "代码清单21-1: User实体",
+    "lang": "java",
+    "chapter_file": "chapter-021.md",
+    "line": 152,
+    "extracted_file": "src\\代码清单21-1_ User实体.java",
+    "source": null
+  },
+  {
+    "title": "代码清单21-2: UserRepository方法名查询",
+    "lang": "java",
+    "chapter_file": "chapter-021.md",
+    "line": 180,
+    "extracted_file": "src\\代码清单21-2_ UserRepository方法名查询.java",
+    "source": null
+  },
+  {
+    "title": "代码清单21-3: @Query JPQL查询",
+    "lang": "java",
+    "chapter_file": "chapter-021.md",
+    "line": 222,
+    "extracted_file": "src\\代码清单21-3_ @Query JPQL查询.java",
+    "source": null
+  },
+  {
+    "title": "代码清单21-4: 原生SQL查询",
+    "lang": "java",
+    "chapter_file": "chapter-021.md",
+    "line": 246,
+    "extracted_file": "src\\代码清单21-4_ 原生SQL查询.java",
+    "source": null
+  },
+  {
+    "title": "代码清单21-5: UserRepository + JpaSpecificationExecutor",
+    "lang": "java",
+    "chapter_file": "chapter-021.md",
+    "line": 271,
+    "extracted_file": "src\\代码清单21-5_ UserRepository + JpaSpecificationExecutor.java",
+    "source": null
+  },
+  {
+    "title": "代码清单21-6: Specifications动态查询Service",
+    "lang": "java",
+    "chapter_file": "chapter-021.md",
+    "line": 280,
+    "extracted_file": "src\\代码清单21-6_ Specifications动态查询Service.java",
+    "source": null
+  },
+  {
+    "title": "代码清单21-7: UserRepositoryCustom接口",
+    "lang": "java",
+    "chapter_file": "chapter-021.md",
+    "line": 331,
+    "extracted_file": "src\\代码清单21-7_ UserRepositoryCustom接口.java",
+    "source": null
+  },
+  {
+    "title": "代码清单21-8: UserRepositoryImpl实现",
+    "lang": "java",
+    "chapter_file": "chapter-021.md",
+    "line": 340,
+    "extracted_file": "src\\代码清单21-8_ UserRepositoryImpl实现.java",
+    "source": null
+  },
+  {
+    "title": "代码清单21-9: UserRepository完整版",
+    "lang": "java",
+    "chapter_file": "chapter-021.md",
+    "line": 377,
+    "extracted_file": "src\\代码清单21-9_ UserRepository完整版.java",
+    "source": null
+  },
+  {
+    "title": "代码清单21-10: OrderRepositoryCustom",
+    "lang": "java",
+    "chapter_file": "chapter-021.md",
+    "line": 404,
+    "extracted_file": "src\\代码清单21-10_ OrderRepositoryCustom.java",
+    "source": null
+  },
+  {
+    "title": "代码清单21-11: OrderRepositoryImpl实现",
+    "lang": "java",
+    "chapter_file": "chapter-021.md",
+    "line": 423,
+    "extracted_file": "src\\代码清单21-11_ OrderRepositoryImpl实现.java",
+    "source": null
+  },
+  {
+    "title": "代码清单23-1: Spring Data Redis配置类",
+    "lang": "java",
+    "chapter_file": "chapter-023.md",
+    "line": 150,
+    "extracted_file": "src\\代码清单23-1_ Spring Data Redis配置类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单23-2: Redis连接配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-023.md",
+    "line": 174,
+    "extracted_file": "src\\代码清单23-2_ Redis连接配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单23-3: String类型操作",
+    "lang": "java",
+    "chapter_file": "chapter-023.md",
+    "line": 195,
+    "extracted_file": "src\\代码清单23-3_ String类型操作.java",
+    "source": null
+  },
+  {
+    "title": "代码清单23-4: Hash类型操作",
+    "lang": "java",
+    "chapter_file": "chapter-023.md",
+    "line": 237,
+    "extracted_file": "src\\代码清单23-4_ Hash类型操作.java",
+    "source": null
+  },
+  {
+    "title": "代码清单23-5: List类型操作",
+    "lang": "java",
+    "chapter_file": "chapter-023.md",
+    "line": 262,
+    "extracted_file": "src\\代码清单23-5_ List类型操作.java",
+    "source": null
+  },
+  {
+    "title": "代码清单23-6: Set类型操作",
+    "lang": "java",
+    "chapter_file": "chapter-023.md",
+    "line": 293,
+    "extracted_file": "src\\代码清单23-6_ Set类型操作.java",
+    "source": null
+  },
+  {
+    "title": "代码清单23-7: 启用缓存注解配置",
+    "lang": "java",
+    "chapter_file": "chapter-023.md",
+    "line": 324,
+    "extracted_file": "src\\代码清单23-7_ 启用缓存注解配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单23-8: BookService缓存注解示例",
+    "lang": "java",
+    "chapter_file": "chapter-023.md",
+    "line": 332,
+    "extracted_file": "src\\代码清单23-8_ BookService缓存注解示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单23-9: 缓存击穿和雪崩防护",
+    "lang": "java",
+    "chapter_file": "chapter-023.md",
+    "line": 370,
+    "extracted_file": "src\\代码清单23-9_ 缓存击穿和雪崩防护.java",
+    "source": null
+  },
+  {
+    "title": "代码清单23-10: User实体类",
+    "lang": "java",
+    "chapter_file": "chapter-023.md",
+    "line": 437,
+    "extracted_file": "src\\代码清单23-10_ User实体类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单23-11: UserRepository",
+    "lang": "java",
+    "chapter_file": "chapter-023.md",
+    "line": 460,
+    "extracted_file": "src\\代码清单23-11_ UserRepository.java",
+    "source": null
+  },
+  {
+    "title": "代码清单23-12: UserCacheService",
+    "lang": "java",
+    "chapter_file": "chapter-023.md",
+    "line": 482,
+    "extracted_file": "src\\代码清单23-12_ UserCacheService.java",
+    "source": null
+  },
+  {
+    "title": "代码清单23-13: UserController",
+    "lang": "java",
+    "chapter_file": "chapter-023.md",
+    "line": 558,
+    "extracted_file": "src\\代码清单23-13_ UserController.java",
+    "source": null
+  },
+  {
+    "title": "代码清单24-1: Spring Data MongoDB配置类",
+    "lang": "java",
+    "chapter_file": "chapter-024.md",
+    "line": 156,
+    "extracted_file": "src\\代码清单24-1_ Spring Data MongoDB配置类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单24-2: MongoDB连接配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-024.md",
+    "line": 176,
+    "extracted_file": "src\\代码清单24-2_ MongoDB连接配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单24-3: Book文档类定义",
+    "lang": "java",
+    "chapter_file": "chapter-024.md",
+    "line": 189,
+    "extracted_file": "src\\代码清单24-3_ Book文档类定义.java",
+    "source": null
+  },
+  {
+    "title": "代码清单24-4: 文档插入操作",
+    "lang": "java",
+    "chapter_file": "chapter-024.md",
+    "line": 242,
+    "extracted_file": "src\\代码清单24-4_ 文档插入操作.java",
+    "source": null
+  },
+  {
+    "title": "代码清单24-5: 条件查询示例",
+    "lang": "java",
+    "chapter_file": "chapter-024.md",
+    "line": 265,
+    "extracted_file": "src\\代码清单24-5_ 条件查询示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单24-6: 分页查询示例",
+    "lang": "java",
+    "chapter_file": "chapter-024.md",
+    "line": 304,
+    "extracted_file": "src\\代码清单24-6_ 分页查询示例.java",
+    "source": null
+  },
+  {
+    "title": "代码清单24-7: 文档更新操作",
+    "lang": "java",
+    "chapter_file": "chapter-024.md",
+    "line": 338,
+    "extracted_file": "src\\代码清单24-7_ 文档更新操作.java",
+    "source": null
+  },
+  {
+    "title": "代码清单24-8: 文档删除操作",
+    "lang": "java",
+    "chapter_file": "chapter-024.md",
+    "line": 372,
+    "extracted_file": "src\\代码清单24-8_ 文档删除操作.java",
+    "source": null
+  },
+  {
+    "title": "代码清单24-9: AppLog日志文档类",
+    "lang": "java",
+    "chapter_file": "chapter-024.md",
+    "line": 413,
+    "extracted_file": "src\\代码清单24-9_ AppLog日志文档类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单24-10: AppLogRepository",
+    "lang": "java",
+    "chapter_file": "chapter-024.md",
+    "line": 459,
+    "extracted_file": "src\\代码清单24-10_ AppLogRepository.java",
+    "source": null
+  },
+  {
+    "title": "代码清单24-11: LogStatisticsService",
+    "lang": "java",
+    "chapter_file": "chapter-024.md",
+    "line": 502,
+    "extracted_file": "src\\代码清单24-11_ LogStatisticsService.java",
+    "source": null
+  },
+  {
+    "title": "代码清单25-1: JMX监控配置",
+    "lang": "java",
+    "chapter_file": "chapter-025.md",
+    "line": 162,
+    "extracted_file": "src\\代码清单25-1_ JMX监控配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单25-2: 添加Actuator依赖",
+    "lang": "xml",
+    "chapter_file": "chapter-025.md",
+    "line": 172,
+    "extracted_file": "src\\代码清单25-2_ 添加Actuator依赖.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单25-3: Actuator端点配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-025.md",
+    "line": 181,
+    "extracted_file": "src\\代码清单25-3_ Actuator端点配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单25-4: HikariCP基础配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-025.md",
+    "line": 272,
+    "extracted_file": "src\\代码清单25-4_ HikariCP基础配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单25-5: Actuator监控配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-025.md",
+    "line": 294,
+    "extracted_file": "src\\代码清单25-5_ Actuator监控配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单25-6: HikariCP监控服务",
+    "lang": "java",
+    "chapter_file": "chapter-025.md",
+    "line": 308,
+    "extracted_file": "src\\代码清单25-6_ HikariCP监控服务.java",
+    "source": null
+  },
+  {
+    "title": "代码清单25-7: 配置健康检查指示器",
+    "lang": "java",
+    "chapter_file": "chapter-025.md",
+    "line": 343,
+    "extracted_file": "src\\代码清单25-7_ 配置健康检查指示器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单25-8: OLTP场景连接池配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-025.md",
+    "line": 395,
+    "extracted_file": "src\\代码清单25-8_ OLTP场景连接池配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单25-9: 批处理场景连接池配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-025.md",
+    "line": 415,
+    "extracted_file": "src\\代码清单25-9_ 批处理场景连接池配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单25-10: 连接池大小计算器",
+    "lang": "java",
+    "chapter_file": "chapter-025.md",
+    "line": 449,
+    "extracted_file": "src\\代码清单25-10_ 连接池大小计算器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单25-11: 连接池验证服务",
+    "lang": "java",
+    "chapter_file": "chapter-025.md",
+    "line": 506,
+    "extracted_file": "src\\代码清单25-11_ 连接池验证服务.java",
+    "source": null
+  },
+  {
+    "title": "代码清单26-1: 幂等性脚本",
+    "lang": "sql",
+    "chapter_file": "chapter-026.md",
+    "line": 54,
+    "extracted_file": "src\\代码清单26-1_ 幂等性脚本.sql",
+    "source": null
+  },
+  {
+    "title": "代码清单26-2: Flyway元数据表",
+    "lang": "sql",
+    "chapter_file": "chapter-026.md",
+    "line": 108,
+    "extracted_file": "src\\代码清单26-2_ Flyway元数据表.sql",
+    "source": null
+  },
+  {
+    "title": "代码清单26-3: Flyway配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-026.md",
+    "line": 127,
+    "extracted_file": "src\\代码清单26-3_ Flyway配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单26-4: Flyway依赖",
+    "lang": "xml",
+    "chapter_file": "chapter-026.md",
+    "line": 142,
+    "extracted_file": "src\\代码清单26-4_ Flyway依赖.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单26-5: Liquibase XML ChangeLog",
+    "lang": "xml",
+    "chapter_file": "chapter-026.md",
+    "line": 203,
+    "extracted_file": "src\\代码清单26-5_ Liquibase XML ChangeLog.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单26-6: 声明式回滚",
+    "lang": "xml",
+    "chapter_file": "chapter-026.md",
+    "line": 226,
+    "extracted_file": "src\\代码清单26-6_ 声明式回滚.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单26-7: Context过滤",
+    "lang": "xml",
+    "chapter_file": "chapter-026.md",
+    "line": 239,
+    "extracted_file": "src\\代码清单26-7_ Context过滤.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单26-8: Liquibase依赖",
+    "lang": "xml",
+    "chapter_file": "chapter-026.md",
+    "line": 253,
+    "extracted_file": "src\\代码清单26-8_ Liquibase依赖.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单26-9: Liquibase配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-026.md",
+    "line": 260,
+    "extracted_file": "src\\代码清单26-9_ Liquibase配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单26-10: Flyway初始化用户表",
+    "lang": "sql",
+    "chapter_file": "chapter-026.md",
+    "line": 436,
+    "extracted_file": "src\\代码清单26-10_ Flyway初始化用户表.sql",
+    "source": null
+  },
+  {
+    "title": "代码清单26-11: Flyway添加角色表",
+    "lang": "sql",
+    "chapter_file": "chapter-026.md",
+    "line": 450,
+    "extracted_file": "src\\代码清单26-11_ Flyway添加角色表.sql",
+    "source": null
+  },
+  {
+    "title": "代码清单26-12: Flyway植入初始数据",
+    "lang": "sql",
+    "chapter_file": "chapter-026.md",
+    "line": 467,
+    "extracted_file": "src\\代码清单26-12_ Flyway植入初始数据.sql",
+    "source": null
+  },
+  {
+    "title": "代码清单26-13: Liquibase主变更日志",
+    "lang": "yaml",
+    "chapter_file": "chapter-026.md",
+    "line": 480,
+    "extracted_file": "src\\代码清单26-13_ Liquibase主变更日志.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单26-14: Flyway依赖配置",
+    "lang": "xml",
+    "chapter_file": "chapter-026.md",
+    "line": 535,
+    "extracted_file": "src\\代码清单26-14_ Flyway依赖配置.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单26-15: Flyway配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-026.md",
+    "line": 552,
+    "extracted_file": "src\\代码清单26-15_ Flyway配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单26-16: 初始化用户和会话表",
+    "lang": "sql",
+    "chapter_file": "chapter-026.md",
+    "line": 597,
+    "extracted_file": "src\\代码清单26-16_ 初始化用户和会话表.sql",
+    "source": null
+  },
+  {
+    "title": "代码清单26-17: 添加角色和权限表",
+    "lang": "sql",
+    "chapter_file": "chapter-026.md",
+    "line": 618,
+    "extracted_file": "src\\代码清单26-17_ 添加角色和权限表.sql",
+    "source": null
+  },
+  {
+    "title": "代码清单26-18: 植入初始数据",
+    "lang": "sql",
+    "chapter_file": "chapter-026.md",
+    "line": 638,
+    "extracted_file": "src\\代码清单26-18_ 植入初始数据.sql",
+    "source": null
+  },
+  {
+    "title": "代码清单26-19: 数据库迁移服务",
+    "lang": "java",
+    "chapter_file": "chapter-026.md",
+    "line": 651,
+    "extracted_file": "src\\代码清单26-19_ 数据库迁移服务.java",
+    "source": null
+  },
+  {
+    "title": "代码清单26-20: 数据库迁移集成测试",
+    "lang": "java",
+    "chapter_file": "chapter-026.md",
+    "line": 710,
+    "extracted_file": "src\\代码清单26-20_ 数据库迁移集成测试.java",
+    "source": null
+  },
+  {
+    "title": "代码清单26-21: 运行命令",
+    "lang": "bash",
+    "chapter_file": "chapter-026.md",
+    "line": 745,
+    "extracted_file": "src\\代码清单26-21_ 运行命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单27-1: 数据源配置主类",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 153,
+    "extracted_file": "src\\代码清单27-1_ 数据源配置主类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-2: JPA数据源配置",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 176,
+    "extracted_file": "src\\代码清单27-2_ JPA数据源配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-3: Redis数据源配置",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 213,
+    "extracted_file": "src\\代码清单27-3_ Redis数据源配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-4: MongoDB数据源配置",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 262,
+    "extracted_file": "src\\代码清单27-4_ MongoDB数据源配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-5: 用户实体类",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 301,
+    "extracted_file": "src\\代码清单27-5_ 用户实体类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-6: 用户Repository",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 356,
+    "extracted_file": "src\\代码清单27-6_ 用户Repository.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-7: 订单实体类",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 382,
+    "extracted_file": "src\\代码清单27-7_ 订单实体类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-8: 订单Repository",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 433,
+    "extracted_file": "src\\代码清单27-8_ 订单Repository.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-9: Redis缓存服务",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 460,
+    "extracted_file": "src\\代码清单27-9_ Redis缓存服务.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-10: 操作日志文档",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 531,
+    "extracted_file": "src\\代码清单27-10_ 操作日志文档.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-11: 用户评论文档",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 607,
+    "extracted_file": "src\\代码清单27-11_ 用户评论文档.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-12: MongoDB Repository",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 688,
+    "extracted_file": "src\\代码清单27-12_ MongoDB Repository.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-13: MongoDB服务",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 721,
+    "extracted_file": "src\\代码清单27-13_ MongoDB服务.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-14: 应用配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-027.md",
+    "line": 840,
+    "extracted_file": "src\\代码清单27-14_ 应用配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单27-15: 统一数据访问服务",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 892,
+    "extracted_file": "src\\代码清单27-15_ 统一数据访问服务.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-16: 数据访问控制器",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 1155,
+    "extracted_file": "src\\代码清单27-16_ 数据访问控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-17: 统一数据服务测试",
+    "lang": "java",
+    "chapter_file": "chapter-027.md",
+    "line": 1272,
+    "extracted_file": "src\\代码清单27-17_ 统一数据服务测试.java",
+    "source": null
+  },
+  {
+    "title": "代码清单27-18: 数据库初始化脚本",
+    "lang": "sql",
+    "chapter_file": "chapter-027.md",
+    "line": 1405,
+    "extracted_file": "src\\代码清单27-18_ 数据库初始化脚本.sql",
+    "source": null
+  },
+  {
+    "title": "代码清单27-19: 运行命令",
+    "lang": "bash",
+    "chapter_file": "chapter-027.md",
+    "line": 1440,
+    "extracted_file": "src\\代码清单27-19_ 运行命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单28-1: ",
+    "lang": "xml",
+    "chapter_file": "chapter-028.md",
+    "line": 88,
+    "extracted_file": "src\\代码清单28-1_ .xml",
+    "source": null
+  },
+  {
+    "title": "代码清单28-2: 安全过滤器链配置",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 111,
+    "extracted_file": "src\\代码清单28-2_ 安全过滤器链配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-3: 用户实体类",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 184,
+    "extracted_file": "src\\代码清单28-3_ 用户实体类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-4: 角色实体类",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 246,
+    "extracted_file": "src\\代码清单28-4_ 角色实体类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-5: ",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 263,
+    "extracted_file": "src\\代码清单28-5_ .java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-6: 自定义UserDetailsService实现",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 271,
+    "extracted_file": "src\\代码清单28-6_ 自定义UserDetailsService实现.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-7: ",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 289,
+    "extracted_file": "src\\代码清单28-7_ .java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-8: 启用方法安全注解配置",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 322,
+    "extracted_file": "src\\代码清单28-8_ 启用方法安全注解配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-9: 使用@PreAuthorize注解控制方法访问",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 331,
+    "extracted_file": "src\\代码清单28-9_ 使用@PreAuthorize注解控制方法访问.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-10: Service层方法级安全",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 372,
+    "extracted_file": "src\\代码清单28-10_ Service层方法级安全.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-11: 启动类",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 490,
+    "extracted_file": "src\\代码清单28-11_ 启动类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-12: 用户实体",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 499,
+    "extracted_file": "src\\代码清单28-12_ 用户实体.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-13: 角色实体",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 566,
+    "extracted_file": "src\\代码清单28-13_ 角色实体.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-14: 仓库接口",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 583,
+    "extracted_file": "src\\代码清单28-14_ 仓库接口.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-15: 安全配置",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 596,
+    "extracted_file": "src\\代码清单28-15_ 安全配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-16: 方法安全配置",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 643,
+    "extracted_file": "src\\代码清单28-16_ 方法安全配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-17: 认证服务",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 650,
+    "extracted_file": "src\\代码清单28-17_ 认证服务.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-18: 用户业务服务",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 666,
+    "extracted_file": "src\\代码清单28-18_ 用户业务服务.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-19: 认证控制器",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 704,
+    "extracted_file": "src\\代码清单28-19_ 认证控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-20: 用户控制器",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 740,
+    "extracted_file": "src\\代码清单28-20_ 用户控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-21: 数据初始化配置",
+    "lang": "java",
+    "chapter_file": "chapter-028.md",
+    "line": 762,
+    "extracted_file": "src\\代码清单28-21_ 数据初始化配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单28-22: 应用配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-028.md",
+    "line": 795,
+    "extracted_file": "src\\代码清单28-22_ 应用配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单28-23: 注册用户测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-028.md",
+    "line": 824,
+    "extracted_file": "src\\代码清单28-23_ 注册用户测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单28-24: Basic认证登录测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-028.md",
+    "line": 831,
+    "extracted_file": "src\\代码清单28-24_ Basic认证登录测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单28-25: 管理员接口测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-028.md",
+    "line": 837,
+    "extracted_file": "src\\代码清单28-25_ 管理员接口测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单29-1: JWT结构示例",
+    "lang": "json",
+    "chapter_file": "chapter-029.md",
+    "line": 61,
+    "extracted_file": "src\\代码清单29-1_ JWT结构示例.json",
+    "source": null
+  },
+  {
+    "title": "代码清单29-2: jjwt库JWT创建",
+    "lang": "java",
+    "chapter_file": "chapter-029.md",
+    "line": 107,
+    "extracted_file": "src\\代码清单29-2_ jjwt库JWT创建.java",
+    "source": null
+  },
+  {
+    "title": "代码清单29-3: jjwt库JWT解析验证",
+    "lang": "java",
+    "chapter_file": "chapter-029.md",
+    "line": 129,
+    "extracted_file": "src\\代码清单29-3_ jjwt库JWT解析验证.java",
+    "source": null
+  },
+  {
+    "title": "代码清单29-4: JWT异常处理",
+    "lang": "java",
+    "chapter_file": "chapter-029.md",
+    "line": 146,
+    "extracted_file": "src\\代码清单29-4_ JWT异常处理.java",
+    "source": null
+  },
+  {
+    "title": "代码清单29-5: JWT认证过滤器",
+    "lang": "java",
+    "chapter_file": "chapter-029.md",
+    "line": 196,
+    "extracted_file": "src\\代码清单29-5_ JWT认证过滤器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单29-6: Refresh Token服务",
+    "lang": "java",
+    "chapter_file": "chapter-029.md",
+    "line": 295,
+    "extracted_file": "src\\代码清单29-6_ Refresh Token服务.java",
+    "source": null
+  },
+  {
+    "title": "代码清单29-7: JWT服务类",
+    "lang": "java",
+    "chapter_file": "chapter-029.md",
+    "line": 410,
+    "extracted_file": "src\\代码清单29-7_ JWT服务类.java",
+    "source": null
+  },
+  {
+    "title": "代码清单29-8: Spring Security 6.x Lambda风格配置",
+    "lang": "java",
+    "chapter_file": "chapter-029.md",
+    "line": 519,
+    "extracted_file": "src\\代码清单29-8_ Spring Security 6.x Lambda风格配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单29-9: 认证控制器",
+    "lang": "java",
+    "chapter_file": "chapter-029.md",
+    "line": 544,
+    "extracted_file": "src\\代码清单29-9_ 认证控制器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单29-10: 注册用户测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-029.md",
+    "line": 595,
+    "extracted_file": "src\\代码清单29-10_ 注册用户测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单29-11: 登录获取Token命令",
+    "lang": "bash",
+    "chapter_file": "chapter-029.md",
+    "line": 602,
+    "extracted_file": "src\\代码清单29-11_ 登录获取Token命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单29-12: 携带Token访问受保护资源命令",
+    "lang": "bash",
+    "chapter_file": "chapter-029.md",
+    "line": 609,
+    "extracted_file": "src\\代码清单29-12_ 携带Token访问受保护资源命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单29-13: Refresh Token续期命令",
+    "lang": "bash",
+    "chapter_file": "chapter-029.md",
+    "line": 614,
+    "extracted_file": "src\\代码清单29-13_ Refresh Token续期命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单30-1: Spring Security OAuth2客户端依赖",
+    "lang": "xml",
+    "chapter_file": "chapter-030.md",
+    "line": 82,
+    "extracted_file": "src\\代码清单30-1_ Spring Security OAuth2客户端依赖.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单30-2: OAuth2客户端配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-030.md",
+    "line": 91,
+    "extracted_file": "src\\代码清单30-2_ OAuth2客户端配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单30-3: SecurityConfig配置",
+    "lang": "java",
+    "chapter_file": "chapter-030.md",
+    "line": 122,
+    "extracted_file": "src\\代码清单30-3_ SecurityConfig配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单30-4: CustomOAuth2UserService实现",
+    "lang": "java",
+    "chapter_file": "chapter-030.md",
+    "line": 150,
+    "extracted_file": "src\\代码清单30-4_ CustomOAuth2UserService实现.java",
+    "source": null
+  },
+  {
+    "title": "代码清单30-5: SocialUser实体",
+    "lang": "java",
+    "chapter_file": "chapter-030.md",
+    "line": 229,
+    "extracted_file": "src\\代码清单30-5_ SocialUser实体.java",
+    "source": null
+  },
+  {
+    "title": "代码清单30-6: SocialUserDetails实现",
+    "lang": "java",
+    "chapter_file": "chapter-030.md",
+    "line": 265,
+    "extracted_file": "src\\代码清单30-6_ SocialUserDetails实现.java",
+    "source": null
+  },
+  {
+    "title": "代码清单30-7: Maven依赖",
+    "lang": "xml",
+    "chapter_file": "chapter-030.md",
+    "line": 374,
+    "extracted_file": "src\\代码清单30-7_ Maven依赖.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单30-8: application.yml配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-030.md",
+    "line": 393,
+    "extracted_file": "src\\代码清单30-8_ application.yml配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单30-9: AppUser实体",
+    "lang": "java",
+    "chapter_file": "chapter-030.md",
+    "line": 422,
+    "extracted_file": "src\\代码清单30-9_ AppUser实体.java",
+    "source": null
+  },
+  {
+    "title": "代码清单30-10: UserRepository接口",
+    "lang": "java",
+    "chapter_file": "chapter-030.md",
+    "line": 458,
+    "extracted_file": "src\\代码清单30-10_ UserRepository接口.java",
+    "source": null
+  },
+  {
+    "title": "代码清单30-11: GitHubOAuth2UserService实现",
+    "lang": "java",
+    "chapter_file": "chapter-030.md",
+    "line": 468,
+    "extracted_file": "src\\代码清单30-11_ GitHubOAuth2UserService实现.java",
+    "source": null
+  },
+  {
+    "title": "代码清单30-12: GitHubUserDetails实现",
+    "lang": "java",
+    "chapter_file": "chapter-030.md",
+    "line": 557,
+    "extracted_file": "src\\代码清单30-12_ GitHubUserDetails实现.java",
+    "source": null
+  },
+  {
+    "title": "代码清单30-13: SecurityConfig完整配置",
+    "lang": "java",
+    "chapter_file": "chapter-030.md",
+    "line": 595,
+    "extracted_file": "src\\代码清单30-13_ SecurityConfig完整配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单31-1: 基础Dockerfile",
+    "lang": "dockerfile",
+    "chapter_file": "chapter-031.md",
+    "line": 70,
+    "extracted_file": "src\\代码清单31-1_ 基础Dockerfile.dockerfile",
+    "source": null
+  },
+  {
+    "title": "代码清单31-2: 构建并推送镜像",
+    "lang": "bash",
+    "chapter_file": "chapter-031.md",
+    "line": 120,
+    "extracted_file": "src\\代码清单31-2_ 构建并推送镜像.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单31-3: 最小化多阶段构建",
+    "lang": "dockerfile",
+    "chapter_file": "chapter-031.md",
+    "line": 179,
+    "extracted_file": "src\\代码清单31-3_ 最小化多阶段构建.dockerfile",
+    "source": null
+  },
+  {
+    "title": "代码清单31-4: 生产环境JVM配置",
+    "lang": "dockerfile",
+    "chapter_file": "chapter-031.md",
+    "line": 222,
+    "extracted_file": "src\\代码清单31-4_ 生产环境JVM配置.dockerfile",
+    "source": null
+  },
+  {
+    "title": "代码清单31-5: 调试参数",
+    "lang": "bash",
+    "chapter_file": "chapter-031.md",
+    "line": 238,
+    "extracted_file": "src\\代码清单31-5_ 调试参数.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单31-6: .dockerignore",
+    "lang": "text",
+    "chapter_file": "chapter-031.md",
+    "line": 283,
+    "extracted_file": "src\\代码清单31-6_ .dockerignore.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单31-7: 演示应用Dockerfile",
+    "lang": "dockerfile",
+    "chapter_file": "chapter-031.md",
+    "line": 317,
+    "extracted_file": "src\\代码清单31-7_ 演示应用Dockerfile.dockerfile",
+    "source": null
+  },
+  {
+    "title": "代码清单31-8: 构建并运行镜像",
+    "lang": "bash",
+    "chapter_file": "chapter-031.md",
+    "line": 334,
+    "extracted_file": "src\\代码清单31-8_ 构建并运行镜像.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单31-9: docker-compose.yml",
+    "lang": "yaml",
+    "chapter_file": "chapter-031.md",
+    "line": 355,
+    "extracted_file": "src\\代码清单31-9_ docker-compose.yml.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单31-10: docker-compose命令",
+    "lang": "bash",
+    "chapter_file": "chapter-031.md",
+    "line": 378,
+    "extracted_file": "src\\代码清单31-10_ docker-compose命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单32-1: docker-compose.yml基础结构",
+    "lang": "yaml",
+    "chapter_file": "chapter-032.md",
+    "line": 71,
+    "extracted_file": "src\\代码清单32-1_ docker-compose.yml基础结构.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单32-2: 完整多容器编排配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-032.md",
+    "line": 120,
+    "extracted_file": "src\\代码清单32-2_ 完整多容器编排配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单32-3: 环境变量详细配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-032.md",
+    "line": 234,
+    "extracted_file": "src\\代码清单32-3_ 环境变量详细配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单32-4: .env环境变量文件",
+    "lang": "properties",
+    "chapter_file": "chapter-032.md",
+    "line": 261,
+    "extracted_file": "src\\代码清单32-4_ .env环境变量文件.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单32-5: 多环境配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-032.md",
+    "line": 286,
+    "extracted_file": "src\\代码清单32-5_ 多环境配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单32-6: 数据库初始化脚本",
+    "lang": "sql",
+    "chapter_file": "chapter-032.md",
+    "line": 348,
+    "extracted_file": "src\\代码清单32-6_ 数据库初始化脚本.sql",
+    "source": null
+  },
+  {
+    "title": "代码清单32-7: Spring Boot应用Dockerfile",
+    "lang": "dockerfile",
+    "chapter_file": "chapter-032.md",
+    "line": 378,
+    "extracted_file": "src\\代码清单32-7_ Spring Boot应用Dockerfile.dockerfile",
+    "source": null
+  },
+  {
+    "title": "代码清单32-8: 完整docker-compose.yml",
+    "lang": "yaml",
+    "chapter_file": "chapter-032.md",
+    "line": 406,
+    "extracted_file": "src\\代码清单32-8_ 完整docker-compose.yml.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单32-9: Docker Compose启动命令",
+    "lang": "bash",
+    "chapter_file": "chapter-032.md",
+    "line": 496,
+    "extracted_file": "src\\代码清单32-9_ Docker Compose启动命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单32-10: 服务健康状态验证命令",
+    "lang": "bash",
+    "chapter_file": "chapter-032.md",
+    "line": 515,
+    "extracted_file": "src\\代码清单32-10_ 服务健康状态验证命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单33-1: Deployment配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-033.md",
+    "line": 110,
+    "extracted_file": "src\\代码清单33-1_ Deployment配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单33-2: ClusterIP Service配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-033.md",
+    "line": 168,
+    "extracted_file": "src\\代码清单33-2_ ClusterIP Service配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单33-3: NodePort Service配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-033.md",
+    "line": 188,
+    "extracted_file": "src\\代码清单33-3_ NodePort Service配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单33-4: Ingress配置示例",
+    "lang": "yaml",
+    "chapter_file": "chapter-033.md",
+    "line": 209,
+    "extracted_file": "src\\代码清单33-4_ Ingress配置示例.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单33-5: Helm values.yaml",
+    "lang": "yaml",
+    "chapter_file": "chapter-033.md",
+    "line": 258,
+    "extracted_file": "src\\代码清单33-5_ Helm values.yaml.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单33-6: Helm Deployment模板",
+    "lang": "yaml",
+    "chapter_file": "chapter-033.md",
+    "line": 294,
+    "extracted_file": "src\\代码清单33-6_ Helm Deployment模板.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单33-7: ConfigMap配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-033.md",
+    "line": 370,
+    "extracted_file": "src\\代码清单33-7_ ConfigMap配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单33-8: Deployment配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-033.md",
+    "line": 389,
+    "extracted_file": "src\\代码清单33-8_ Deployment配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单33-9: ClusterIP Service",
+    "lang": "yaml",
+    "chapter_file": "chapter-033.md",
+    "line": 442,
+    "extracted_file": "src\\代码清单33-9_ ClusterIP Service.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单33-10: Ingress配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-033.md",
+    "line": 459,
+    "extracted_file": "src\\代码清单33-10_ Ingress配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单33-11: 部署命令",
+    "lang": "bash",
+    "chapter_file": "chapter-033.md",
+    "line": 481,
+    "extracted_file": "src\\代码清单33-11_ 部署命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单34-1: 数据库健康检查指示器",
+    "lang": "java",
+    "chapter_file": "chapter-034.md",
+    "line": 107,
+    "extracted_file": "src\\代码清单34-1_ 数据库健康检查指示器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单34-2: 业务自定义健康检查指示器",
+    "lang": "java",
+    "chapter_file": "chapter-034.md",
+    "line": 154,
+    "extracted_file": "src\\代码清单34-2_ 业务自定义健康检查指示器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单34-3: 组合式健康检查指示器",
+    "lang": "java",
+    "chapter_file": "chapter-034.md",
+    "line": 226,
+    "extracted_file": "src\\代码清单34-3_ 组合式健康检查指示器.java",
+    "source": null
+  },
+  {
+    "title": "代码清单34-4: application.properties端点暴露配置",
+    "lang": "properties",
+    "chapter_file": "chapter-034.md",
+    "line": 259,
+    "extracted_file": "src\\代码清单34-4_ application.properties端点暴露配置.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单34-5: Spring Security端点保护配置",
+    "lang": "java",
+    "chapter_file": "chapter-034.md",
+    "line": 293,
+    "extracted_file": "src\\代码清单34-5_ Spring Security端点保护配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单34-6: 基于角色的端点访问控制映射",
+    "lang": "java",
+    "chapter_file": "chapter-034.md",
+    "line": 373,
+    "extracted_file": "src\\代码清单34-6_ 基于角色的端点访问控制映射.java",
+    "source": null
+  },
+  {
+    "title": "代码清单34-7: 数据库连接健康检查",
+    "lang": "java",
+    "chapter_file": "chapter-034.md",
+    "line": 463,
+    "extracted_file": "src\\代码清单34-7_ 数据库连接健康检查.java",
+    "source": null
+  },
+  {
+    "title": "代码清单34-8: 业务服务健康检查",
+    "lang": "java",
+    "chapter_file": "chapter-034.md",
+    "line": 524,
+    "extracted_file": "src\\代码清单34-8_ 业务服务健康检查.java",
+    "source": null
+  },
+  {
+    "title": "代码清单34-9: 健康检查聚合配置",
+    "lang": "java",
+    "chapter_file": "chapter-034.md",
+    "line": 591,
+    "extracted_file": "src\\代码清单34-9_ 健康检查聚合配置.java",
+    "source": null
+  },
+  {
+    "title": "代码清单34-10: application.properties配置",
+    "lang": "properties",
+    "chapter_file": "chapter-034.md",
+    "line": 624,
+    "extracted_file": "src\\代码清单34-10_ application.properties配置.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单34-11: 健康检查测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-034.md",
+    "line": 647,
+    "extracted_file": "src\\代码清单34-11_ 健康检查测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单35-1: pom.xml中添加Prometheus注册器依赖",
+    "lang": "xml",
+    "chapter_file": "chapter-035.md",
+    "line": 116,
+    "extracted_file": "src\\代码清单35-1_ pom.xml中添加Prometheus注册器依赖.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单35-2: application.properties中配置Prometheus",
+    "lang": "properties",
+    "chapter_file": "chapter-035.md",
+    "line": 134,
+    "extracted_file": "src\\代码清单35-2_ application.properties中配置Prometheus.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单35-3: Prometheus格式指标输出示例",
+    "lang": "plaintext",
+    "chapter_file": "chapter-035.md",
+    "line": 148,
+    "extracted_file": "src\\代码清单35-3_ Prometheus格式指标输出示例.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单35-4: prometheus.yml中添加Spring Boot抓取配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-035.md",
+    "line": 159,
+    "extracted_file": "src\\代码清单35-4_ prometheus.yml中添加Spring Boot抓取配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单35-5: Kubernetes环境下Prometheus自动发现",
+    "lang": "yaml",
+    "chapter_file": "chapter-035.md",
+    "line": 170,
+    "extracted_file": "src\\代码清单35-5_ Kubernetes环境下Prometheus自动发现.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单35-6: Deployment添加Prometheus抓取注解",
+    "lang": "yaml",
+    "chapter_file": "chapter-035.md",
+    "line": 183,
+    "extracted_file": "src\\代码清单35-6_ Deployment添加Prometheus抓取注解.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单35-7: 使用MeterRegistry注册Counter",
+    "lang": "java",
+    "chapter_file": "chapter-035.md",
+    "line": 203,
+    "extracted_file": "src\\代码清单35-7_ 使用MeterRegistry注册Counter.java",
+    "source": null
+  },
+  {
+    "title": "代码清单35-8: 使用@Timed注解记录方法执行时间",
+    "lang": "java",
+    "chapter_file": "chapter-035.md",
+    "line": 236,
+    "extracted_file": "src\\代码清单35-8_ 使用@Timed注解记录方法执行时间.java",
+    "source": null
+  },
+  {
+    "title": "代码清单35-9: 使用Gauge监控队列深度",
+    "lang": "java",
+    "chapter_file": "chapter-035.md",
+    "line": 254,
+    "extracted_file": "src\\代码清单35-9_ 使用Gauge监控队列深度.java",
+    "source": null
+  },
+  {
+    "title": "代码清单35-10: 使用多维度Tags设计指标",
+    "lang": "java",
+    "chapter_file": "chapter-035.md",
+    "line": 271,
+    "extracted_file": "src\\代码清单35-10_ 使用多维度Tags设计指标.java",
+    "source": null
+  },
+  {
+    "title": "代码清单35-11: 预注册与懒注册两种方式",
+    "lang": "java",
+    "chapter_file": "chapter-035.md",
+    "line": 287,
+    "extracted_file": "src\\代码清单35-11_ 预注册与懒注册两种方式.java",
+    "source": null
+  },
+  {
+    "title": "代码清单35-12: 练习项目pom.xml",
+    "lang": "xml",
+    "chapter_file": "chapter-035.md",
+    "line": 366,
+    "extracted_file": "src\\代码清单35-12_ 练习项目pom.xml.xml",
+    "source": null
+  },
+  {
+    "title": "代码清单35-13: application.properties",
+    "lang": "properties",
+    "chapter_file": "chapter-035.md",
+    "line": 399,
+    "extracted_file": "src\\代码清单35-13_ application.properties.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单35-14: MetricsApplication.java",
+    "lang": "java",
+    "chapter_file": "chapter-035.md",
+    "line": 411,
+    "extracted_file": "src\\代码清单35-14_ MetricsApplication.java.java",
+    "source": null
+  },
+  {
+    "title": "代码清单35-15: CacheService.java",
+    "lang": "java",
+    "chapter_file": "chapter-035.md",
+    "line": 425,
+    "extracted_file": "src\\代码清单35-15_ CacheService.java.java",
+    "source": null
+  },
+  {
+    "title": "代码清单35-16: OrderService.java",
+    "lang": "java",
+    "chapter_file": "chapter-035.md",
+    "line": 459,
+    "extracted_file": "src\\代码清单35-16_ OrderService.java.java",
+    "source": null
+  },
+  {
+    "title": "代码清单35-17: OrderController.java",
+    "lang": "java",
+    "chapter_file": "chapter-035.md",
+    "line": 489,
+    "extracted_file": "src\\代码清单35-17_ OrderController.java.java",
+    "source": null
+  },
+  {
+    "title": "代码清单35-18: 验证Prometheus指标输出",
+    "lang": "plaintext",
+    "chapter_file": "chapter-035.md",
+    "line": 524,
+    "extracted_file": "src\\代码清单35-18_ 验证Prometheus指标输出.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单35-19: 模拟业务请求",
+    "lang": "bash",
+    "chapter_file": "chapter-035.md",
+    "line": 533,
+    "extracted_file": "src\\代码清单35-19_ 模拟业务请求.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-1: JVM参数配置",
+    "lang": "properties",
+    "chapter_file": "chapter-036.md",
+    "line": 134,
+    "extracted_file": "src\\代码清单36-1_ JVM参数配置.properties",
+    "source": null
+  },
+  {
+    "title": "代码清单36-2: Spring Boot JVM调优配置（application.yaml）",
+    "lang": "yaml",
+    "chapter_file": "chapter-036.md",
+    "line": 167,
+    "extracted_file": "src\\代码清单36-2_ Spring Boot JVM调优配置（application.yaml）.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单36-3: Dockerfile中配置JVM参数",
+    "lang": "dockerfile",
+    "chapter_file": "chapter-036.md",
+    "line": 201,
+    "extracted_file": "src\\代码清单36-3_ Dockerfile中配置JVM参数.dockerfile",
+    "source": null
+  },
+  {
+    "title": "代码清单36-4: Kubernetes Deployment JVM配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-036.md",
+    "line": 238,
+    "extracted_file": "src\\代码清单36-4_ Kubernetes Deployment JVM配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单36-5: jstat命令使用示例",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 296,
+    "extracted_file": "src\\代码清单36-5_ jstat命令使用示例.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-6: jstat -gcutil 输出示例",
+    "lang": "plaintext",
+    "chapter_file": "chapter-036.md",
+    "line": 323,
+    "extracted_file": "src\\代码清单36-6_ jstat -gcutil 输出示例.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单36-7: jmap命令使用示例",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 330,
+    "extracted_file": "src\\代码清单36-7_ jmap命令使用示例.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-8: jcmd命令使用示例",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 355,
+    "extracted_file": "src\\代码清单36-8_ jcmd命令使用示例.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-9: jhsdb命令使用示例",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 389,
+    "extracted_file": "src\\代码清单36-9_ jhsdb命令使用示例.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-10: 完整JFR性能剖析流程",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 411,
+    "extracted_file": "src\\代码清单36-10_ 完整JFR性能剖析流程.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-11: 启动JMC",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 458,
+    "extracted_file": "src\\代码清单36-11_ 启动JMC.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-12: 确认JDK版本",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 542,
+    "extracted_file": "src\\代码清单36-12_ 确认JDK版本.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-13: JvmExerciseApplication.java",
+    "lang": "java",
+    "chapter_file": "chapter-036.md",
+    "line": 559,
+    "extracted_file": "src\\代码清单36-13_ JvmExerciseApplication.java.java",
+    "source": null
+  },
+  {
+    "title": "代码清单36-14: MemoryLeakService.java",
+    "lang": "java",
+    "chapter_file": "chapter-036.md",
+    "line": 570,
+    "extracted_file": "src\\代码清单36-14_ MemoryLeakService.java.java",
+    "source": null
+  },
+  {
+    "title": "代码清单36-15: MemoryController.java",
+    "lang": "java",
+    "chapter_file": "chapter-036.md",
+    "line": 592,
+    "extracted_file": "src\\代码清单36-15_ MemoryController.java.java",
+    "source": null
+  },
+  {
+    "title": "代码清单36-16: 启动应用并记录GC日志",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 623,
+    "extracted_file": "src\\代码清单36-16_ 启动应用并记录GC日志.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-17: jstat监控命令",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 656,
+    "extracted_file": "src\\代码清单36-17_ jstat监控命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-18: 触发GC并监控",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 671,
+    "extracted_file": "src\\代码清单36-18_ 触发GC并监控.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-19: JFR性能剖析",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 684,
+    "extracted_file": "src\\代码清单36-19_ JFR性能剖析.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-20: 堆转储分析",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 713,
+    "extracted_file": "src\\代码清单36-20_ 堆转储分析.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-21: 线程分析",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 732,
+    "extracted_file": "src\\代码清单36-21_ 线程分析.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单36-22: 一键验证脚本",
+    "lang": "bash",
+    "chapter_file": "chapter-036.md",
+    "line": 760,
+    "extracted_file": "src\\代码清单36-22_ 一键验证脚本.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单37-1: 核对本机工具链版本",
+    "lang": "bash",
+    "chapter_file": "chapter-037.md",
+    "line": 78,
+    "extracted_file": "src\\代码清单37-1_ 核对本机工具链版本.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单37-2: 合同实体：需求条目落成字段",
+    "lang": "java",
+    "chapter_file": "chapter-037.md",
+    "line": 92,
+    "extracted_file": "src\\代码清单37-2_ 合同实体：需求条目落成字段.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/entity/ContractEntity.java"
+  },
+  {
+    "title": "代码清单37-3: 合同仓储：租户过滤与关键字查询",
+    "lang": "java",
+    "chapter_file": "chapter-037.md",
+    "line": 136,
+    "extracted_file": "src\\代码清单37-3_ 合同仓储：租户过滤与关键字查询.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/repository/ContractRepository.java"
+  },
+  {
+    "title": "代码清单37-4: 接样单实体：合同关联与流转字段",
+    "lang": "java",
+    "chapter_file": "chapter-037.md",
+    "line": 160,
+    "extracted_file": "src\\代码清单37-4_ 接样单实体：合同关联与流转字段.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/entity/SampleReceiptEntity.java"
+  },
+  {
+    "title": "代码清单37-5: 项目立项书骨架（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-037.md",
+    "line": 200,
+    "extracted_file": "src\\代码清单37-5_ 项目立项书骨架（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单38-1: 检测记录控制器：契约接口与租户收口",
+    "lang": "java",
+    "chapter_file": "chapter-038.md",
+    "line": 44,
+    "extracted_file": "src\\代码清单38-1_ 检测记录控制器：契约接口与租户收口.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/controller/TestRecordController.java"
+  },
+  {
+    "title": "代码清单38-2: 样品仓储：租户与接样单双重过滤",
+    "lang": "java",
+    "chapter_file": "chapter-038.md",
+    "line": 93,
+    "extracted_file": "src\\代码清单38-2_ 样品仓储：租户与接样单双重过滤.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/repository/SampleRepository.java"
+  },
+  {
+    "title": "代码清单38-3: 样品实体：接样单关联与档案字段",
+    "lang": "java",
+    "chapter_file": "chapter-038.md",
+    "line": 124,
+    "extracted_file": "src\\代码清单38-3_ 样品实体：接样单关联与档案字段.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/entity/SampleEntity.java"
+  },
+  {
+    "title": "代码清单38-4: JPA 只校验不建表的配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-038.md",
+    "line": 189,
+    "extracted_file": "src\\代码清单38-4_ JPA 只校验不建表的配置.yml",
+    "source": "code/lab-management-system-springboot/src/main/resources/application.yml"
+  },
+  {
+    "title": "代码清单38-5: 分层架构设计文档骨架（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-038.md",
+    "line": 208,
+    "extracted_file": "src\\代码清单38-5_ 分层架构设计文档骨架（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单39-1: 检测专项实体：业务编码主键与平台级声明",
+    "lang": "java",
+    "chapter_file": "chapter-039.md",
+    "line": 45,
+    "extracted_file": "src\\代码清单39-1_ 检测专项实体：业务编码主键与平台级声明.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/entity/InspectionSpecialtyEntity.java"
+  },
+  {
+    "title": "代码清单39-2: 检测项目实体：对专项的真实外键归属",
+    "lang": "java",
+    "chapter_file": "chapter-039.md",
+    "line": 96,
+    "extracted_file": "src\\代码清单39-2_ 检测项目实体：对专项的真实外键归属.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/entity/InspectionObjectEntity.java"
+  },
+  {
+    "title": "代码清单39-3: 检测参数实体：三名归一与别名 jsonb",
+    "lang": "java",
+    "chapter_file": "chapter-039.md",
+    "line": 134,
+    "extracted_file": "src\\代码清单39-3_ 检测参数实体：三名归一与别名 jsonb.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/entity/InspectionParameterEntity.java"
+  },
+  {
+    "title": "代码清单39-4: 字典表设计规范清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-039.md",
+    "line": 226,
+    "extracted_file": "src\\代码清单39-4_ 字典表设计规范清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单40-1: 接样单实体的流转骨架字段",
+    "lang": "java",
+    "chapter_file": "chapter-040.md",
+    "line": 57,
+    "extracted_file": "src\\代码清单40-1_ 接样单实体的流转骨架字段.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/entity/SampleReceiptEntity.java"
+  },
+  {
+    "title": "代码清单40-2: 流转状态转换器：枚举与库列的双向翻译",
+    "lang": "java",
+    "chapter_file": "chapter-040.md",
+    "line": 102,
+    "extracted_file": "src\\代码清单40-2_ 流转状态转换器：枚举与库列的双向翻译.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/entity/enums/FlowStatusConverter.java"
+  },
+  {
+    "title": "代码清单40-3: 流转转移：状态守卫、动作治理与历史追加",
+    "lang": "java",
+    "chapter_file": "chapter-040.md",
+    "line": 129,
+    "extracted_file": "src\\代码清单40-3_ 流转转移：状态守卫、动作治理与历史追加.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/service/SampleReceiptService.java"
+  },
+  {
+    "title": "代码清单40-4: 样品实体的 ext 弹性字段",
+    "lang": "java",
+    "chapter_file": "chapter-040.md",
+    "line": 208,
+    "extracted_file": "src\\代码清单40-4_ 样品实体的 ext 弹性字段.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/entity/SampleEntity.java"
+  },
+  {
+    "title": "代码清单40-5: ext 整包补录：契约必填与整体替换",
+    "lang": "java",
+    "chapter_file": "chapter-040.md",
+    "line": 218,
+    "extracted_file": "src\\代码清单40-5_ ext 整包补录：契约必填与整体替换.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/service/SampleService.java"
+  },
+  {
+    "title": "代码清单40-6: 流程状态机设计清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-040.md",
+    "line": 246,
+    "extracted_file": "src\\代码清单40-6_ 流程状态机设计清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单41-1: 检测记录控制器：契约接口挂载六个端点",
+    "lang": "java",
+    "chapter_file": "chapter-041.md",
+    "line": 42,
+    "extracted_file": "src\\代码清单41-1_ 检测记录控制器：契约接口挂载六个端点.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/controller/TestRecordController.java"
+  },
+  {
+    "title": "代码清单41-2: 检测记录仓储：租户与样品两条过滤条件",
+    "lang": "java",
+    "chapter_file": "chapter-041.md",
+    "line": 70,
+    "extracted_file": "src\\代码清单41-2_ 检测记录仓储：租户与样品两条过滤条件.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/repository/TestRecordRepository.java"
+  },
+  {
+    "title": "代码清单41-3: 样品创建：接样单父引用校验",
+    "lang": "java",
+    "chapter_file": "chapter-041.md",
+    "line": 94,
+    "extracted_file": "src\\代码清单41-3_ 样品创建：接样单父引用校验.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/service/SampleService.java"
+  },
+  {
+    "title": "代码清单41-4: 检测记录创建：时间戳双写与标识生成",
+    "lang": "java",
+    "chapter_file": "chapter-041.md",
+    "line": 110,
+    "extracted_file": "src\\代码清单41-4_ 检测记录创建：时间戳双写与标识生成.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/service/TestRecordService.java"
+  },
+  {
+    "title": "代码清单41-5: 检测记录更新：局部更新走逐字段合并",
+    "lang": "java",
+    "chapter_file": "chapter-041.md",
+    "line": 128,
+    "extracted_file": "src\\代码清单41-5_ 检测记录更新：局部更新走逐字段合并.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/service/TestRecordService.java"
+  },
+  {
+    "title": "代码清单41-6: 结果改判：直接覆盖判定值",
+    "lang": "java",
+    "chapter_file": "chapter-041.md",
+    "line": 150,
+    "extracted_file": "src\\代码清单41-6_ 结果改判：直接覆盖判定值.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/service/TestRecordService.java"
+  },
+  {
+    "title": "代码清单41-7: 数据录入模块设计清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-041.md",
+    "line": 185,
+    "extracted_file": "src\\代码清单41-7_ 数据录入模块设计清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单42-1: 分发方法：一个阶段守一个站",
+    "lang": "java",
+    "chapter_file": "chapter-042.md",
+    "line": 64,
+    "extracted_file": "src\\代码清单42-1_ 分发方法：一个阶段守一个站.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/service/ReportFlowService.java"
+  },
+  {
+    "title": "代码清单42-2: 转移映射：推进与退回各一本账",
+    "lang": "java",
+    "chapter_file": "chapter-042.md",
+    "line": 86,
+    "extracted_file": "src\\代码清单42-2_ 转移映射：推进与退回各一本账.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/service/ReportFlowService.java"
+  },
+  {
+    "title": "代码清单42-3: actForStage：校验、守卫、路由、落闸四步",
+    "lang": "java",
+    "chapter_file": "chapter-042.md",
+    "line": 111,
+    "extracted_file": "src\\代码清单42-3_ actForStage：校验、守卫、路由、落闸四步.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/service/ReportFlowService.java"
+  },
+  {
+    "title": "代码清单42-4: requireOperator：空操作人的最后防线",
+    "lang": "java",
+    "chapter_file": "chapter-042.md",
+    "line": 165,
+    "extracted_file": "src\\代码清单42-4_ requireOperator：空操作人的最后防线.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/service/ReportFlowService.java"
+  },
+  {
+    "title": "代码清单42-5: 流程服务设计清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-042.md",
+    "line": 192,
+    "extracted_file": "src\\代码清单42-5_ 流程服务设计清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单43-1: SummaryService 类声明、ALL 常量与六列定义",
+    "lang": "java",
+    "chapter_file": "chapter-043.md",
+    "line": 35,
+    "extracted_file": "src\\代码清单43-1_ SummaryService 类声明、ALL 常量与六列定义.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/service/SummaryService.java"
+  },
+  {
+    "title": "代码清单43-2: getReportSummary：类别归一化与行列输出",
+    "lang": "java",
+    "chapter_file": "chapter-043.md",
+    "line": 57,
+    "extracted_file": "src\\代码清单43-2_ getReportSummary：类别归一化与行列输出.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/service/SummaryService.java"
+  },
+  {
+    "title": "代码清单43-3: renderRow：行内空值的统一出口",
+    "lang": "java",
+    "chapter_file": "chapter-043.md",
+    "line": 90,
+    "extracted_file": "src\\代码清单43-3_ renderRow：行内空值的统一出口.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/service/SummaryService.java"
+  },
+  {
+    "title": "代码清单43-4: 统计接口设计清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-043.md",
+    "line": 152,
+    "extracted_file": "src\\代码清单43-4_ 统计接口设计清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单44-1: 检测标准实体：128 长度主键、状态转换器与溯源两列",
+    "lang": "java",
+    "chapter_file": "chapter-044.md",
+    "line": 35,
+    "extracted_file": "src\\代码清单44-1_ 检测标准实体：128 长度主键、状态转换器与溯源两列.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/entity/InspectionStandardEntity.java"
+  },
+  {
+    "title": "代码清单44-2: 参数界面实体：组件路径、config jsonb 与无默认值的布尔",
+    "lang": "java",
+    "chapter_file": "chapter-044.md",
+    "line": 90,
+    "extracted_file": "src\\代码清单44-2_ 参数界面实体：组件路径、config jsonb 与无默认值的布尔.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/entity/ParamInterfaceEntity.java"
+  },
+  {
+    "title": "代码清单44-3: 项目↔参数连接表实体：@IdClass 复合主键与资格默认值",
+    "lang": "java",
+    "chapter_file": "chapter-044.md",
+    "line": 143,
+    "extracted_file": "src\\代码清单44-3_ 项目↔参数连接表实体：@IdClass 复合主键与资格默认值.java",
+    "source": "code/lab-management-system-springboot/src/main/java/io/xr/lab/platform/entity/InspectionObjectParameterEntity.java"
+  },
+  {
+    "title": "代码清单44-4: 连接表设计清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-044.md",
+    "line": 240,
+    "extracted_file": "src\\代码清单44-4_ 连接表设计清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单45-1: builder 段，先 pom 后 src 的层缓存顺序（摘自 Dockerfile）",
+    "lang": "dockerfile",
+    "chapter_file": "chapter-045.md",
+    "line": 44,
+    "extracted_file": "src\\代码清单45-1_ builder 段，先 pom 后 src 的层缓存顺序（摘自 Dockerfile）.dockerfile",
+    "source": null
+  },
+  {
+    "title": "代码清单45-2: runtime 段，精简运行时与 HEALTHCHECK（摘自 Dockerfile）",
+    "lang": "dockerfile",
+    "chapter_file": "chapter-045.md",
+    "line": 60,
+    "extracted_file": "src\\代码清单45-2_ runtime 段，精简运行时与 HEALTHCHECK（摘自 Dockerfile）.dockerfile",
+    "source": null
+  },
+  {
+    "title": "代码清单45-3: springboot.env 自举与必填项校验（摘自 deploy/lab-management-system-springboot.sh，中间若干 printf 行与服务账号校验段省略）",
+    "lang": "shell",
+    "chapter_file": "chapter-045.md",
+    "line": 93,
+    "extracted_file": "src\\代码清单45-3_ springboot.env 自举与必填项校验（摘自 deploy_lab-management-system-springboot.sh，中间若干 printf 行与服务账号校验段省略）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单45-4: nginx 模板恒从 master 拉取与 sed 渲染（摘自 deploy/lab-management-system-springboot.sh）",
+    "lang": "shell",
+    "chapter_file": "chapter-045.md",
+    "line": 128,
+    "extracted_file": "src\\代码清单45-4_ nginx 模板恒从 master 拉取与 sed 渲染（摘自 deploy_lab-management-system-springboot.sh）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单45-5: 镜像拉取、容器替换与 120 秒健康探针（摘自 deploy/lab-management-system-springboot.sh）",
+    "lang": "shell",
+    "chapter_file": "chapter-045.md",
+    "line": 157,
+    "extracted_file": "src\\代码清单45-5_ 镜像拉取、容器替换与 120 秒健康探针（摘自 deploy_lab-management-system-springboot.sh）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单45-6: vhost 模板关键段，80 跳转与 443 反代（摘自 deploy/nginx-vps.conf.example）",
+    "lang": "nginx",
+    "chapter_file": "chapter-045.md",
+    "line": 202,
+    "extracted_file": "src\\代码清单45-6_ vhost 模板关键段，80 跳转与 443 反代（摘自 deploy_nginx-vps.conf.example）.conf",
+    "source": null
+  },
+  {
+    "title": "代码清单45-7: deploy 用户与工作目录（摘自 deploy/setup-vps.sh）",
+    "lang": "shell",
+    "chapter_file": "chapter-045.md",
+    "line": 244,
+    "extracted_file": "src\\代码清单45-7_ deploy 用户与工作目录（摘自 deploy_setup-vps.sh）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单45-8: 部署上线清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-045.md",
+    "line": 261,
+    "extracted_file": "src\\代码清单45-8_ 部署上线清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单46-1: RepositoryPgTest 的八条测试规格（摘自 src/test/java/io/xr/lab/platform/repository/RepositoryPgTest.java）",
+    "lang": "text",
+    "chapter_file": "chapter-046.md",
+    "line": 70,
+    "extracted_file": "src\\代码清单46-1_ RepositoryPgTest 的八条测试规格（摘自 src_test_java_io_xr_lab_platform_repository_RepositoryPgTest.java）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单46-2: 项目复盘报告骨架（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-046.md",
+    "line": 87,
+    "extracted_file": "src\\代码清单46-2_ 项目复盘报告骨架（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单46-3: 生产部署清单（草案示意，整合第 45 章 fail-fast 口径）",
+    "lang": "text",
+    "chapter_file": "chapter-046.md",
+    "line": 101,
+    "extracted_file": "src\\代码清单46-3_ 生产部署清单（草案示意，整合第 45 章 fail-fast 口径）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单46-4: 运维手册骨架（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-046.md",
+    "line": 120,
+    "extracted_file": "src\\代码清单46-4_ 运维手册骨架（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单47-1: 租户实体 Tenant 的字段定义",
+    "lang": "java",
+    "chapter_file": "chapter-047.md",
+    "line": 62,
+    "extracted_file": "src\\代码清单47-1_ 租户实体 Tenant 的字段定义.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/entity/Generated/Tenant.java"
+  },
+  {
+    "title": "代码清单47-2: TenantRepository 接口全文",
+    "lang": "java",
+    "chapter_file": "chapter-047.md",
+    "line": 94,
+    "extracted_file": "src\\代码清单47-2_ TenantRepository 接口全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/repository/TenantRepository.java"
+  },
+  {
+    "title": "代码清单47-3: 应用订阅实体 TenantApplication 的字段定义",
+    "lang": "java",
+    "chapter_file": "chapter-047.md",
+    "line": 110,
+    "extracted_file": "src\\代码清单47-3_ 应用订阅实体 TenantApplication 的字段定义.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/entity/Generated/TenantApplication.java"
+  },
+  {
+    "title": "代码清单47-4: 成员关联实体 TenantMember 的字段定义",
+    "lang": "java",
+    "chapter_file": "chapter-047.md",
+    "line": 138,
+    "extracted_file": "src\\代码清单47-4_ 成员关联实体 TenantMember 的字段定义.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/entity/Generated/TenantMember.java"
+  },
+  {
+    "title": "代码清单47-5: TenantGuard 全文",
+    "lang": "java",
+    "chapter_file": "chapter-047.md",
+    "line": 179,
+    "extracted_file": "src\\代码清单47-5_ TenantGuard 全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/security/TenantGuard.java"
+  },
+  {
+    "title": "代码清单47-6: 多租户隔离选型决策文档骨架（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-047.md",
+    "line": 220,
+    "extracted_file": "src\\代码清单47-6_ 多租户隔离选型决策文档骨架（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单47-7: 租户表实体与 Repository 落地六步（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-047.md",
+    "line": 238,
+    "extracted_file": "src\\代码清单47-7_ 租户表实体与 Repository 落地六步（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单48-1: AdminTenantsController 类头：实现契约接口的平台级控制器",
+    "lang": "java",
+    "chapter_file": "chapter-048.md",
+    "line": 27,
+    "extracted_file": "src\\代码清单48-1_ AdminTenantsController 类头：实现契约接口的平台级控制器.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/AdminTenantsController.java"
+  },
+  {
+    "title": "代码清单48-2: 创建租户：入口、实体组装与 DTO 翻译",
+    "lang": "java",
+    "chapter_file": "chapter-048.md",
+    "line": 80,
+    "extracted_file": "src\\代码清单48-2_ 创建租户：入口、实体组装与 DTO 翻译.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/AdminTenantsController.java"
+  },
+  {
+    "title": "代码清单48-3: 更新租户：逐字段 null 即不改",
+    "lang": "java",
+    "chapter_file": "chapter-048.md",
+    "line": 122,
+    "extracted_file": "src\\代码清单48-3_ 更新租户：逐字段 null 即不改.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/AdminTenantsController.java"
+  },
+  {
+    "title": "代码清单48-4: 租户应用订阅控制器：第一行先过 TenantGuard",
+    "lang": "java",
+    "chapter_file": "chapter-048.md",
+    "line": 146,
+    "extracted_file": "src\\代码清单48-4_ 租户应用订阅控制器：第一行先过 TenantGuard.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/TenantApplicationsController.java"
+  },
+  {
+    "title": "代码清单48-5: 更新应用订阅：按租户与客户端定位，null 即不改",
+    "lang": "java",
+    "chapter_file": "chapter-048.md",
+    "line": 201,
+    "extracted_file": "src\\代码清单48-5_ 更新应用订阅：按租户与客户端定位，null 即不改.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/TenantApplicationsController.java"
+  },
+  {
+    "title": "代码清单48-6: Admin API 设计清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-048.md",
+    "line": 233,
+    "extracted_file": "src\\代码清单48-6_ Admin API 设计清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单49-1: TenantMembersController 类头与成员列表",
+    "lang": "java",
+    "chapter_file": "chapter-049.md",
+    "line": 25,
+    "extracted_file": "src\\代码清单49-1_ TenantMembersController 类头与成员列表.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/TenantMembersController.java"
+  },
+  {
+    "title": "代码清单49-2: 邀请端点：受邀用户加活跃成员",
+    "lang": "java",
+    "chapter_file": "chapter-049.md",
+    "line": 99,
+    "extracted_file": "src\\代码清单49-2_ 邀请端点：受邀用户加活跃成员.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/TenantMembersController.java"
+  },
+  {
+    "title": "代码清单49-3: SysUserRepository 接口全文",
+    "lang": "java",
+    "chapter_file": "chapter-049.md",
+    "line": 144,
+    "extracted_file": "src\\代码清单49-3_ SysUserRepository 接口全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/repository/SysUserRepository.java"
+  },
+  {
+    "title": "代码清单49-4: 登录入口：同语义 401、锁定检查与失败计数",
+    "lang": "java",
+    "chapter_file": "chapter-049.md",
+    "line": 162,
+    "extracted_file": "src\\代码清单49-4_ 登录入口：同语义 401、锁定检查与失败计数.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/AuthController.java"
+  },
+  {
+    "title": "代码清单49-5: 登录成功：计数重置、租户归属解析",
+    "lang": "java",
+    "chapter_file": "chapter-049.md",
+    "line": 231,
+    "extracted_file": "src\\代码清单49-5_ 登录成功：计数重置、租户归属解析.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/AuthController.java"
+  },
+  {
+    "title": "代码清单49-6: JwtIssuer 构造器：五项 fail-fast 校验",
+    "lang": "java",
+    "chapter_file": "chapter-049.md",
+    "line": 269,
+    "extracted_file": "src\\代码清单49-6_ JwtIssuer 构造器：五项 fail-fast 校验.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/security/JwtIssuer.java"
+  },
+  {
+    "title": "代码清单49-7: 签发访问令牌：载荷逐条点名",
+    "lang": "java",
+    "chapter_file": "chapter-049.md",
+    "line": 319,
+    "extracted_file": "src\\代码清单49-7_ 签发访问令牌：载荷逐条点名.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/security/JwtIssuer.java"
+  },
+  {
+    "title": "代码清单49-8: HibernateAuditConfig：审计拦截器显式注册",
+    "lang": "java",
+    "chapter_file": "chapter-049.md",
+    "line": 354,
+    "extracted_file": "src\\代码清单49-8_ HibernateAuditConfig：审计拦截器显式注册.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/config/HibernateAuditConfig.java"
+  },
+  {
+    "title": "代码清单49-9: 身份接口设计清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-049.md",
+    "line": 384,
+    "extracted_file": "src\\代码清单49-9_ 身份接口设计清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单50-1: TenantContext 全文",
+    "lang": "java",
+    "chapter_file": "chapter-050.md",
+    "line": 24,
+    "extracted_file": "src\\代码清单50-1_ TenantContext 全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/security/TenantContext.java"
+  },
+  {
+    "title": "代码清单50-2: 切换当前租户方法 meSwitchTenant 全文",
+    "lang": "java",
+    "chapter_file": "chapter-050.md",
+    "line": 56,
+    "extracted_file": "src\\代码清单50-2_ 切换当前租户方法 meSwitchTenant 全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/MeController.java"
+  },
+  {
+    "title": "代码清单50-3: TenantMemberRepository 接口全文",
+    "lang": "java",
+    "chapter_file": "chapter-050.md",
+    "line": 124,
+    "extracted_file": "src\\代码清单50-3_ TenantMemberRepository 接口全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/repository/TenantMemberRepository.java"
+  },
+  {
+    "title": "代码清单50-4: SysRoleRepository 接口全文",
+    "lang": "java",
+    "chapter_file": "chapter-050.md",
+    "line": 159,
+    "extracted_file": "src\\代码清单50-4_ SysRoleRepository 接口全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/repository/SysRoleRepository.java"
+  },
+  {
+    "title": "代码清单50-5: 绑定表实体 TenantMemberRole 字段定义",
+    "lang": "java",
+    "chapter_file": "chapter-050.md",
+    "line": 189,
+    "extracted_file": "src\\代码清单50-5_ 绑定表实体 TenantMemberRole 字段定义.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/entity/Generated/TenantMemberRole.java"
+  },
+  {
+    "title": "代码清单50-6: TenantMemberRoleRepository 接口全文",
+    "lang": "java",
+    "chapter_file": "chapter-050.md",
+    "line": 219,
+    "extracted_file": "src\\代码清单50-6_ TenantMemberRoleRepository 接口全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/repository/TenantMemberRoleRepository.java"
+  },
+  {
+    "title": "代码清单50-7: 行级隔离防线自检清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-050.md",
+    "line": 241,
+    "extracted_file": "src\\代码清单50-7_ 行级隔离防线自检清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单51-1: oAuthAuthorize 方法全文",
+    "lang": "java",
+    "chapter_file": "chapter-051.md",
+    "line": 37,
+    "extracted_file": "src\\代码清单51-1_ oAuthAuthorize 方法全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/OauthController.java"
+  },
+  {
+    "title": "代码清单51-2: oAuthToken 的 grantType 路由",
+    "lang": "java",
+    "chapter_file": "chapter-051.md",
+    "line": 102,
+    "extracted_file": "src\\代码清单51-2_ oAuthToken 的 grantType 路由.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/OauthController.java"
+  },
+  {
+    "title": "代码清单51-3: exchangeAuthorizationCode 全文",
+    "lang": "java",
+    "chapter_file": "chapter-051.md",
+    "line": 125,
+    "extracted_file": "src\\代码清单51-3_ exchangeAuthorizationCode 全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/OauthController.java"
+  },
+  {
+    "title": "代码清单51-4: rotateRefreshToken 全文",
+    "lang": "java",
+    "chapter_file": "chapter-051.md",
+    "line": 177,
+    "extracted_file": "src\\代码清单51-4_ rotateRefreshToken 全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/OauthController.java"
+  },
+  {
+    "title": "代码清单51-5: TokenIssuer.persistTokenPair 全文",
+    "lang": "java",
+    "chapter_file": "chapter-051.md",
+    "line": 227,
+    "extracted_file": "src\\代码清单51-5_ TokenIssuer.persistTokenPair 全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/TokenIssuer.java"
+  },
+  {
+    "title": "代码清单51-6: OauthCodeRepository 接口全文",
+    "lang": "java",
+    "chapter_file": "chapter-051.md",
+    "line": 280,
+    "extracted_file": "src\\代码清单51-6_ OauthCodeRepository 接口全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/repository/OauthCodeRepository.java"
+  },
+  {
+    "title": "代码清单51-7: OauthRefreshTokenRepository 接口全文",
+    "lang": "java",
+    "chapter_file": "chapter-051.md",
+    "line": 287,
+    "extracted_file": "src\\代码清单51-7_ OauthRefreshTokenRepository 接口全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/repository/OauthRefreshTokenRepository.java"
+  },
+  {
+    "title": "代码清单51-8: 授权端点安全自检清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-051.md",
+    "line": 304,
+    "extracted_file": "src\\代码清单51-8_ 授权端点安全自检清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单52-1: adminClientsCreateClient 全文",
+    "lang": "java",
+    "chapter_file": "chapter-052.md",
+    "line": 49,
+    "extracted_file": "src\\代码清单52-1_ adminClientsCreateClient 全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/AdminClientsController.java"
+  },
+  {
+    "title": "代码清单52-2: adminClientsUpdateClient 与 adminClientsDeleteClient",
+    "lang": "java",
+    "chapter_file": "chapter-052.md",
+    "line": 91,
+    "extracted_file": "src\\代码清单52-2_ adminClientsUpdateClient 与 adminClientsDeleteClient.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/AdminClientsController.java"
+  },
+  {
+    "title": "代码清单52-3: OauthClientRepository 接口全文",
+    "lang": "java",
+    "chapter_file": "chapter-052.md",
+    "line": 123,
+    "extracted_file": "src\\代码清单52-3_ OauthClientRepository 接口全文.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/repository/OauthClientRepository.java"
+  },
+  {
+    "title": "代码清单52-4: ClientsController 全文（省一行 @impl 锚点注释）",
+    "lang": "java",
+    "chapter_file": "chapter-052.md",
+    "line": 163,
+    "extracted_file": "src\\代码清单52-4_ ClientsController 全文（省一行 @impl 锚点注释）.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/ClientsController.java"
+  },
+  {
+    "title": "代码清单52-5: SecurityConfig 的公共元数据放行段",
+    "lang": "java",
+    "chapter_file": "chapter-052.md",
+    "line": 209,
+    "extracted_file": "src\\代码清单52-5_ SecurityConfig 的公共元数据放行段.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/config/SecurityConfig.java"
+  },
+  {
+    "title": "代码清单52-6: adminClientsSetClientStatus 与 toDto",
+    "lang": "java",
+    "chapter_file": "chapter-052.md",
+    "line": 237,
+    "extracted_file": "src\\代码清单52-6_ adminClientsSetClientStatus 与 toDto.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/AdminClientsController.java"
+  },
+  {
+    "title": "代码清单52-7: OAuth 应用接入与治理清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-052.md",
+    "line": 284,
+    "extracted_file": "src\\代码清单52-7_ OAuth 应用接入与治理清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单53-1: AuditTimestampInterceptor 全文（省 package、一行 @impl 锚点注释与 import 区）",
+    "lang": "java",
+    "chapter_file": "chapter-053.md",
+    "line": 40,
+    "extracted_file": "src\\代码清单53-1_ AuditTimestampInterceptor 全文（省 package、一行 @impl 锚点注释与 import 区）.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/config/AuditTimestampInterceptor.java"
+  },
+  {
+    "title": "代码清单53-2: HibernateAuditConfig 全文（省 package、一行 @impl 锚点注释与 import 区）",
+    "lang": "java",
+    "chapter_file": "chapter-053.md",
+    "line": 104,
+    "extracted_file": "src\\代码清单53-2_ HibernateAuditConfig 全文（省 package、一行 @impl 锚点注释与 import 区）.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/config/HibernateAuditConfig.java"
+  },
+  {
+    "title": "代码清单53-3: 审计字段规范自检清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-053.md",
+    "line": 164,
+    "extracted_file": "src\\代码清单53-3_ 审计字段规范自检清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单54-1: SysMenu 实体声明与字段区（省 package 行、import 区）",
+    "lang": "java",
+    "chapter_file": "chapter-054.md",
+    "line": 73,
+    "extracted_file": "src\\代码清单54-1_ SysMenu 实体声明与字段区（省 package 行、import 区）.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/entity/Generated/SysMenu.java"
+  },
+  {
+    "title": "代码清单54-2: SysRoleMenuRepository 全文（省 package 行与 import 区）",
+    "lang": "java",
+    "chapter_file": "chapter-054.md",
+    "line": 134,
+    "extracted_file": "src\\代码清单54-2_ SysRoleMenuRepository 全文（省 package 行与 import 区）.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/repository/SysRoleMenuRepository.java"
+  },
+  {
+    "title": "代码清单54-3: tenantRoleMenusSetSysRoleMenus 写入段（类注释与方法摘录）",
+    "lang": "java",
+    "chapter_file": "chapter-054.md",
+    "line": 165,
+    "extracted_file": "src\\代码清单54-3_ tenantRoleMenusSetSysRoleMenus 写入段（类注释与方法摘录）.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/TenantRoleMenusController.java"
+  },
+  {
+    "title": "代码清单54-4: meGetMyMenus 与 assembleMenus、buildTree（方法摘录）",
+    "lang": "java",
+    "chapter_file": "chapter-054.md",
+    "line": 232,
+    "extracted_file": "src\\代码清单54-4_ meGetMyMenus 与 assembleMenus、buildTree（方法摘录）.java",
+    "source": "code/saas-identity-platform-springboot/src/main/java/saas/identity/platform/controller/MeController.java"
+  },
+  {
+    "title": "代码清单54-5: 角色授权设计自检清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-054.md",
+    "line": 366,
+    "extracted_file": "src\\代码清单54-5_ 角色授权设计自检清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单55-1: builder 段，先 pom 后 src 的层缓存顺序（摘自 Dockerfile @ v0.2.34-20260926）",
+    "lang": "dockerfile",
+    "chapter_file": "chapter-055.md",
+    "line": 51,
+    "extracted_file": "src\\代码清单55-1_ builder 段，先 pom 后 src 的层缓存顺序（摘自 Dockerfile @ v0.2.34-20260926）.dockerfile",
+    "source": null
+  },
+  {
+    "title": "代码清单55-2: runtime 段，精简运行时与 HEALTHCHECK（摘自 Dockerfile @ v0.2.34-20260926）",
+    "lang": "dockerfile",
+    "chapter_file": "chapter-055.md",
+    "line": 69,
+    "extracted_file": "src\\代码清单55-2_ runtime 段，精简运行时与 HEALTHCHECK（摘自 Dockerfile @ v0.2.34-20260926）.dockerfile",
+    "source": null
+  },
+  {
+    "title": "代码清单55-3: springboot.env 自举与必填项校验（摘自 deploy/saas-identity-platform-springboot.sh @ v0.2.34-20260926，中段若干 printf 行与 PG 连接两行省略）",
+    "lang": "shell",
+    "chapter_file": "chapter-055.md",
+    "line": 107,
+    "extracted_file": "src\\代码清单55-3_ springboot.env 自举与必填项校验（摘自 deploy_saas-identity-platform-springboot.sh @ v0.2.34-20260926，中段若干 printf 行与 PG 连接两行省略）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单55-4: nginx 模板恒从 master 拉取与 sed 渲染（摘自 deploy/saas-identity-platform-springboot.sh @ v0.2.34-20260926）",
+    "lang": "shell",
+    "chapter_file": "chapter-055.md",
+    "line": 140,
+    "extracted_file": "src\\代码清单55-4_ nginx 模板恒从 master 拉取与 sed 渲染（摘自 deploy_saas-identity-platform-springboot.sh @ v0.2.34-20260926）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单55-5: 镜像拉取、容器替换与 120 秒健康探针（摘自 deploy/saas-identity-platform-springboot.sh @ v0.2.34-20260926，中段探针设计缘由注释块省略）",
+    "lang": "shell",
+    "chapter_file": "chapter-055.md",
+    "line": 183,
+    "extracted_file": "src\\代码清单55-5_ 镜像拉取、容器替换与 120 秒健康探针（摘自 deploy_saas-identity-platform-springboot.sh @ v0.2.34-20260926，中段探针设计缘由注释块省略）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单55-6: vhost 模板关键段，80 跳转与 443 反代（摘自 deploy/nginx-vps.conf.example @ v0.2.34-20260926）",
+    "lang": "nginx",
+    "chapter_file": "chapter-055.md",
+    "line": 246,
+    "extracted_file": "src\\代码清单55-6_ vhost 模板关键段，80 跳转与 443 反代（摘自 deploy_nginx-vps.conf.example @ v0.2.34-20260926）.conf",
+    "source": null
+  },
+  {
+    "title": "代码清单55-7: deploy 用户与工作目录（摘自 deploy/setup-vps.sh @ v0.2.34-20260926）",
+    "lang": "shell",
+    "chapter_file": "chapter-055.md",
+    "line": 290,
+    "extracted_file": "src\\代码清单55-7_ deploy 用户与工作目录（摘自 deploy_setup-vps.sh @ v0.2.34-20260926）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单55-8: 部署上线清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-055.md",
+    "line": 317,
+    "extracted_file": "src\\代码清单55-8_ 部署上线清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单56-1: 运维检查清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-056.md",
+    "line": 80,
+    "extracted_file": "src\\代码清单56-1_ 运维检查清单（草案示意）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单56-2: 全书分界判据清单（草案示意）",
+    "lang": "text",
+    "chapter_file": "chapter-056.md",
+    "line": 111,
+    "extracted_file": "src\\代码清单56-2_ 全书分界判据清单（草案示意）.txt",
+    "source": null
+  }
+]

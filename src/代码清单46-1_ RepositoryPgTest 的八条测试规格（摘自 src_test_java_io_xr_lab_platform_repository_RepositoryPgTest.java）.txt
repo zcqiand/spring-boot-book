@@ -1,0 +1,8 @@
+filter_nullStatusDoesNotCollapseWhere               status=null 不折叠 WHERE 的回归锁
+filter_keywordLowerLikeMatchesBothColumns           小写关键字两列 LIKE 均命中
+filter_statusEnumEqualityUsesWireValue              状态枚举按线上存储值等值过滤
+receiptsFilter_nullableBranchesAndKeyword           接样单过滤的可空分支与关键字
+receiptsFilterThreeState_notYetAndSubmitted         三态过滤的 jsonb 谓词语义
+submitWritesLastSubmittedBy_filterSubmittedHitsRow  提交写入与三态过滤联动
+summary_dateRangeAndCategoryFilters                 汇总按类别与日期范围过滤
+jsonbColumnsRoundTripOnRealPg                       jsonb（PG 的 JSON 二进制类型）列真库读写往返

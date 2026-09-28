@@ -1,0 +1,10 @@
+1. 端口三处同步：application.yml 的 ${SERVER_PORT:5105}、deploy 脚本 -p、nginx proxy_pass，全部 5105
+2. env 自举三必填：DATABASE_URL、DATABASE_USER、DATABASE_PASSWORD；JWT_SIGNING_KEY 首启自动生成，append-only 不可覆盖
+3. DATABASE_NAME 写死 saas_prod，无须外部传入
+4. nginx 模板恒从 master 拉取，不用本地缓存副本
+5. 证书只放 VPS 的 /etc/nginx/ssl/，不入仓
+6. 容器端口只绑 127.0.0.1，公网唯一入口是 nginx
+7. 上线后盯满 120 秒探针，探活通过才算交付
+8. 回滚：手动指定旧 tag 重跑 deploy 脚本
+9. default_server 归属自查：同 VPS 多仓共存只能有一个
+10. TZ=UTC，容器时间与审计时间戳口径一致

@@ -1,8 +1,8 @@
-FROM eclipse-temurin:17-jre-alpine AS builder
+FROM eclipse-temurin:21-jre-alpine AS builder
 WORKDIR /app
 COPY target/xr-tech-api.jar app.jar
 
-FROM eclipse-temurin:17-jre-alpine
+FROM eclipse-temurin:21-jre-alpine
 WORKDIR /app
 
 # JVM调优参数

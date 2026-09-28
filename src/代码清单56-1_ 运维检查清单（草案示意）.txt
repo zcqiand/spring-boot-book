@@ -1,0 +1,14 @@
+通用（两仓同款）：
+1. 端口三处同步：yml、deploy -p、proxy_pass；lab 仓 5205，平台 5105
+2. 容器只绑回环地址，公网唯一入口是 nginx；TZ=UTC 与审计时间戳一致
+3. 宿主侧探针直探 /actuator/health，上限 120 秒，探活通过才算交付
+4. 回滚等于旧 tag 重跑同一个交付脚本
+lab 仓（卷五）：
+5. env 七必填，签名密钥外部注入，DATABASE_NAME 固定 lab_prod
+身份平台（卷六）：
+6. env 三必填；JWT_SIGNING_KEY 首启自动生成、append-only，换机手工迁移
+7. DATABASE_NAME 写死 saas_prod
+8. 未来项：应用停用仅登记行加标记，签发链路不读 status，
+   接线前任何手册不得写「停用即拒签发」
+边界声明：
+9. 日志轮转、数据库备份、审计日志不在仓内交付范围，上线后自行接入

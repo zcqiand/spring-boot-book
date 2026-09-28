@@ -1,0 +1,6 @@
+spring:
+  jpa:
+    hibernate:
+      # schema 由 shared 仓管（SSOT = shared src/db/schema.ts），Hibernate 只校验。
+      ddl-auto: validate
+    open-in-view: false

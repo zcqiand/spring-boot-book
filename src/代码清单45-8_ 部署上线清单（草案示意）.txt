@@ -1,0 +1,10 @@
+1. 端口若改：application.yml、deploy 脚本 -p、nginx proxy_pass 三处同步改。
+2. 必填 env：DATABASE_URL/USER/PASSWORD、JWT_SIGNING_KEY、LAB_SAAS_CLIENT_SECRET
+   （首启自举时还要求 LAB_SAAS_SERVICE_USER/PASSWORD，缺亦退出）；DATABASE_NAME
+   由脚本固定写 lab_prod，不须也不能从外部传入。
+3. nginx 模板每次部署恒从 master 拉，本地老模板不作数。
+4. cert 与私钥只放 VPS 的 /etc/nginx/ssl/，不入仓。
+5. 容器端口只绑 127.0.0.1，公网流量只准走 nginx 443 这一个入口。
+6. 健康探针上限 120s：探活是宿主 wget，超时或容器死亡即失败并打印日志。
+7. 回滚方案：把旧 tag 传给同一个 deploy 脚本重跑，镜像仓库里双份 tag 就是为这一步留的。
+8. 上线前自查 default_server：同 VPS 多仓时确认 :80 default 归属唯一，nginx -t 必须通过。
